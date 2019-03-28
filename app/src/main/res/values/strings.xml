@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">IndoTravel</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Renang</string>
+    <string name="slide_1_desc">Nikmati fasilitas renang dengan pemandangan keren</string>
+    <string name="slide_2_title">Jet Ski </string>
+    <string name="slide_2_desc">Jelajahi pantai dengan gaya yang menantang</string>
+    <string name="slide_3_title">Diving</string>
+    <string name="slide_3_desc">View bawah laut yang menjadi sorotan dunia</string>
+    <string name="play_again_desc">Untuk mwlihatnya lagi Settings -> apps -> Intro View -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="judul_anyer">Pantai Anyer</string>
+    <string name="artikel1">   Tentang Pantai Anyer     \n\n
+        Pantai Anyer menjadi pantai yang paling sering dikunjungi wisatawan. Pasirnya yang putih kehitaman dan memanjang menjadikan pantai ini idola masyarakat Banten dan sekitarnya.
+    \n\n
+    open this link:
+    \n\n
+    https://pantaianyer.net/</string>
+    <string name="judul_ujung_kulon">Taman Nasional Ujung Kulon</string>
+    <string name="artikel2">     Tentang\n\n
+Wilayah Semenanjung Ujung Kulon merupakan habitat Badak Jawa (Rhinoceros sondaicus), sehingga dalam pengelolaan wisata alam untuk lokasi ini sangat terbatas sekali. Hal ini dikarenakan agar tidak mengganggu habitat Badak Jawa. Luas wilayah Semenanjung Ujung Kulon ini  ± 38.000 Ha. Kegiatan wisata alam yang dapat di lakukan di lokasi ini antara lain trekking, berkemah dan wildlife viewing.
+
+Di Semenanjung Ujung Kulon terdapat jalur tetap yang dapat digunakan untuk trekking.
+    </string>
+    <string name="artikel3">Fasilitas lainnya adalah Pos Jaga yang terdapat dibeberapa titik seperti Karang Ranjang, Cibunar, dan Cidaon. Selain trekking, kegiatan wisata lainnya yang dapat dilakukan adalah wildlife viewing di Padang penggembalaan Cidaon dan Cigenter, berkemah di Tanjung Layar, dan wisata budaya di Goa Sang Hyang Sirah.
+        \n\n
+    open this link:
+    \n\n
+    http://www.ujungkulon.org/</string>
+    <string name="judul_agung_banten">Masjid Agung Banten
+    </string>
+    <string name="artikel4">     Tentang\n\n
+masjid ada makam Sultan Maulana Hasanuddin, Sultan Maulana Muhamnad Nasaruddin, Pangeran Ratu (istri Maulana Hasanuddin), Sultan Abdul Abdul Fadhal dan Sultan Abu Nasir Abdul Kohar atau yang dikenal sebagai Sultan Haji, dan Sultan Abul Mufakhir Muhammad Aliyudin, dan Sultan Ageng Tirtayasa.
+
+Setiap tahunnya, ribuan orang biasanya datang ke masjid Agung Banten untuk melakukan ziarah. Setiap hari libur, para peziarah datang mendoakan Sultan Maulana Hasanuddin atau ke makam-makam di komplek masjid. Khusus di malam Jumat, biasanya akan lebih ramai orang akan datang ke sini.
+
+</string>
+    <string name="artikel6">Pengurus kenadziran Masjid Agung Banten, Tb. Abbas Wasse mengatakan kegiatan di masjid ini relatif sepi bila memasuki bulan puasa. Namun, ketika memasuki bulan sawal, ribuan orang selalu datang untuk berziarah ke makam sultan. Memasuki hari ke-29 di bulan Ramadan, warga juga akan datang ke Masjid Agung karena bertepatan dengan khaul Sultan Maulana Hasanuddin.
+    \n\n
+    open tihs link:
+    \n\n
+   http://simas.kemenag.go.id/index.php/profil/masjid/537/ </string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Pilih Provinsi</item>
+        <item>Banten</item>
+        <item>Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Yogyakarta</item>
+        <item>Jawa Timur</item>
+    </string-array>
+
+</resources>

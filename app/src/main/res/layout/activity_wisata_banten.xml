@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WisataBanten">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/masjid_agung"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/banten1"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/masjid_agung" />
+
+    <Button
+        android:id="@+id/anyer"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/masjid_agung"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/banten2"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/anyer"
+                android:layout_below="@+id/banten1"/>
+
+    <Button
+        android:id="@+id/baduy"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/anyer"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/banten3"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/banten2"
+                android:layout_toRightOf="@id/baduy"/>
+
+    <Button
+        android:id="@+id/ujung_kulon"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/baduy"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/banten4"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/banten3"
+                android:layout_toRightOf="@+id/ujung_kulon" />
+
+    <Button
+        android:id="@+id/banten6"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/ujung_kulon"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/banten5"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/banten4"
+                android:layout_toRightOf="@+id/banten6" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

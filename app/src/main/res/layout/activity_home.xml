@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/MenuUtama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textStyle="normal|bold"
+            android:textSize="30dp"
+            android:text="Menu Utama"/>
+
+
+        <Button
+            android:id="@+id/ButtonWisata"
+            android:layout_width="282dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bromo"
+            android:layout_below="@id/MenuUtama"
+            android:text="Wisata"
+            android:onClick="menuWisata"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/ButtonKuliner"
+            android:layout_width="282dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/ButtonWisata"
+            android:background="@drawable/betawi"
+            android:text="Kuliner"
+            android:onClick="menuKuliner"
+            android:layout_marginBottom="50dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/ButtonTips"
+            android:layout_width="282dp"
+            android:layout_height="150dp"
+            android:background="@drawable/pantai"
+            android:layout_below="@id/ButtonKuliner"
+            android:shadowColor="@android:color/black"
+            android:text="Tips dan Trik"
+            android:onClick="tipsTrik"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

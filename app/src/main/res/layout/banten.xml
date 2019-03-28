@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:text="Daftar Wisata Banten"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/dessert"
+                android:layout_below="@+id/text_intro"
+                android:text="Pilih Wisatamu :"/>
+
+            <ImageView
+                android:id="@+id/banten"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/dessert"
+                android:layout_marginTop="3dp"
+                android:padding="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/dessert"
+                android:layout_toRightOf="@+id/banten"
+                android:text="Banten"/>
+
+            <ImageView
+                android:id="@+id/jakarta"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/banten"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/banten"
+                android:layout_toRightOf="@+id/jakarta"
+                android:text="Jakarta"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/jabar"
+                android:layout_below="@+id/jakarta" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/jakarta"
+                android:layout_toRightOf="@+id/jabar"
+                android:text="Jawa Barat"/>
+
+
+            <ImageView
+                android:id="@+id/jateng"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/jabar"
+                android:layout_marginTop="3dp"
+                android:padding="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/jabar"
+                android:layout_toRightOf="@+id/jateng"
+                android:text="Jawa Tengah"/>
+
+            <ImageView
+                android:id="@+id/jogja"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/jateng"
+
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/jateng"
+                android:layout_toRightOf="@+id/jogja"
+                android:text="Yogyakarta"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/jatim"
+                android:layout_below="@+id/jogja"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@+id/jogja"
+                android:layout_toRightOf="@+id/jatim"
+                android:text="Jawa Timur"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
