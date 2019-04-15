@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AirGethuk"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/image_sri_gethuk"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="10dp"
+    android:background="@drawable/sri_gethuk"
+    android:textColor="@android:color/white"
+    android:text="Air Terjun Sri Gethuk"
+    android:fontFamily="@font/bebas"
+    android:gravity="bottom"
+    android:textSize="@dimen/textArticle"
+    android:layout_marginBottom="20dp"/>
+
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="match_parent"
+            android:layout_below="@id/image_sri_gethuk"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginBottom="24dp"
+            android:onClick="openLocation"
+            android:text="Open Location"/>
+
+
+        <TextView
+            android:id="@+id/artikel107"
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/open_location_button"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@android:color/black"
+            android:text="@string/artikel107" />
+        <TextView
+
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artikel107"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/artikel"
+            android:text="@string/artikel108" />
+
+
+        <TextView
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artikel"
+            android:lineSpacingExtra="5sp"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:text="@string/artikel109" />
+
+    </RelativeLayout>
+
+</ScrollView>

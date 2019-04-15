@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HutanMangrove"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_mangrove"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:text="Hutan mangrove"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="@drawable/mangrove" />
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_mangrove"
+                android:layout_marginBottom="24dp"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+            <TextView
+                android:id="@+id/artikel26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel26"
+                android:id="@+id/artikel"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel27"/>
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/artikel"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel28"/>
+
+    </RelativeLayout>
+
+</ScrollView>

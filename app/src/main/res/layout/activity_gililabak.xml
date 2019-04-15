@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity_gili_labak">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_gili_labak"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:text="Gili Labak"
+        android:background="@drawable/gili_labak"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_below="@id/image_gili_labak"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+            <TextView
+                android:id="@+id/artikel61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:text="@string/artikel61" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel61"
+                android:id="@+id/artikel"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel62" />
+
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel"
+                android:id="@+id/artikel2"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel63"/>
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel2"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel64"
+                />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KulinerBanten2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/wisata"
+            android:layout_below="@id/gambar"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="AngeunLada"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/angeun_lada"
+                        android:layout_marginTop="10dp"
+                        android:text="Angeun Lada"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/kuliner"
+            android:layout_below="@id/wisata"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="BalokMenes"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/balok_menes"
+                        android:layout_marginTop="10dp"
+                        android:text="Balok Menes"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tipstrik"
+            android:layout_below="@id/kuliner"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="KueBontot"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/bontot"
+                        android:layout_marginTop="10dp"
+                        android:text="Bontot"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/apa"
+            android:layout_below="@id/tipstrik"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="GeremAsem"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/gerem_asem"
+                        android:layout_marginTop="10dp"
+                        android:text="Gerem Asem"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/si"
+            android:layout_below="@id/apa"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="KueGipang"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/gipang"
+                        android:layout_marginTop="10dp"
+                        android:text="Kue Gipang"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ya"
+            android:layout_below="@id/si"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="KetanBintul"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/ketan_bintul"
+                        android:layout_marginTop="10dp"
+                        android:text="Ketan Bintul"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lepetbanten"
+            android:layout_below="@id/ya"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="LepetBanten"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/lepet_banten"
+                        android:layout_marginTop="10dp"
+                        android:text="Lepet Banten"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sumsum"
+            android:layout_below="@id/lepetbanten"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="NasiSumsum"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/nasi_sumsum"
+                        android:layout_marginTop="10dp"
+                        android:text="Nasi Sumsum"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/yeye"
+            android:layout_below="@id/sumsum"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="PecakBendeng"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/pecak_bandeng"
+                        android:layout_marginTop="10dp"
+                        android:text="Pecak Bandeng"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rebeg"
+            android:layout_below="@id/yeye"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:onClick="RabegBanten"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="@drawable/rabeg"
+                        android:layout_marginTop="10dp"
+                        android:text="Rabeg Banten"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="KULINER BANTEN"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal|bold"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/angeunlada"
+        android:layout_below="@id/title"
+        android:text="Angeun Lada"
+        android:onClick="AngeunLada"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/balokmenes"
+        android:layout_below="@id/angeunlada"
+        android:textColor="@color/black"
+        android:text="Kue Balok Menes"
+        android:onClick="BalokMenes"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/kuebontot"
+        android:layout_below="@id/balokmenes"
+        android:textColor="@color/black"
+        android:onClick="KueBontot"
+        android:text="Kue Bontot"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/geremasem"
+        android:layout_below="@id/kuebontot"
+        android:textColor="@color/black"
+        android:onClick="GeremAsem"
+        android:text="Gerem Asem"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ketanbintul"
+        android:layout_below="@id/geremasem"
+        android:textColor="@color/black"
+        android:onClick="KetanBintul"
+        android:text="Ketan Bintul"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/kuegipang"
+        android:layout_below="@id/ketanbintul"
+        android:textColor="@color/black"
+        android:onClick="KueGipang"
+        android:text="Kue Gipang"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lepetbanten"
+        android:layout_below="@id/kuegipang"
+        android:textColor="@color/black"
+        android:onClick="LepetBanten"
+        android:text="Lepet Banten"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nasisumsum"
+        android:layout_below="@id/lepetbanten"
+        android:textColor="@color/black"
+        android:onClick="NasiSumsum"
+        android:text="Nasi Sumsum"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pecakbendeng"
+        android:layout_below="@id/nasisumsum"
+        android:textColor="@color/black"
+        android:onClick="PecakBendeng"
+        android:text="Pecak Bendeng"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/rabegbanten"
+        android:layout_below="@id/pecakbendeng"
+        android:textColor="@color/black"
+        android:onClick="RabegBanten"
+        android:text="Rebeg Banten"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>-->
+
+</ScrollView>

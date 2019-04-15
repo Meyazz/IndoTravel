@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/back2"
+    tools:context=".GarangAsem">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:text="@string/title6jtg"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginBottom="10dp"
+                android:textStyle="normal|bold"
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView android:id="@+id/RabegImage"
+                android:src="@drawable/garang_asem"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/title"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:id="@+id/Rabeg1"
+                android:text="@string/garamasem1"
+                android:textStyle="normal"
+                android:background="@color/backgroundText"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/RabegImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Rabeg2"
+                android:text="@string/garamasem2"
+                android:background="@color/backgroundText"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="normal"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/Rabeg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".WisataJatim">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/alam_panenjoan"
+                android:layout_below="@id/title"
+                android:layout_toRightOf="@+id/alam"
+                android:text="Gili labak Island"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/alam"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/gili_labak"
+                android:onClick="GiliLabak"
+                android:layout_below="@id/title"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/green-canyon"
+                android:layout_below="@id/alam"
+                android:text="Taman Nasional Baluran"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/canyon"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/canyon"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/baluran"
+                android:onClick="Baluran"
+                android:layout_below="@id/alam"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/stone"
+                android:layout_below="@id/canyon"
+                android:text="Pantai Klayar"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/garden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/garden"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/klayar"
+                android:onClick="PantaKlayar"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/canyon"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/ujung-genteng"
+                android:layout_below="@id/garden"
+                android:text="Pantai Sukamade"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/ujung"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ujung"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sukamade"
+                android:onClick="PantaiSukamade"
+                android:layout_below="@id/garden"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/remis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/telaga"
+                android:layout_below="@id/ujung"
+                android:layout_marginBottom="12dp"
+                android:text="Jatim Park" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/telaga"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/jatim_park3"
+                android:onClick="JatimPark"
+                android:layout_below="@id/ujung"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/kawah"
+                android:layout_below="@id/telaga"
+                android:text="Kawah Ijen"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/putih"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/putih"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/kawah_ijen"
+                android:onClick="KawahIjen"
+                android:layout_below="@id/telaga"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/talaga"
+                android:layout_below="@id/putih"
+                android:text="Museum Angkut"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/bodas"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bodas"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/angkut"
+                android:onClick="MuseumAngkut"
+                android:layout_below="@id/putih"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/kampung"
+                android:layout_below="@id/bodas"
+                android:text="Candi Penataran"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/karuhun"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/karuhun"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/penataran"
+                android:layout_below="@id/bodas"
+                android:layout_marginTop="20dp"
+                android:onClick="CandiPenataran"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/sri"
+                android:layout_below="@id/karuhun"
+                android:text="Air Terjun Coban Rondo"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="45dp"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/baduga"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/baduga"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/coban_rondo"
+                android:onClick="CobanRondo"
+                android:layout_below="@id/karuhun"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/curug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/cikaso"
+                android:layout_below="@id/baduga"
+                android:layout_marginBottom="12dp"
+                android:text="Gua Gong" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cikaso"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/gua_gong"
+                android:onClick="GuaGong"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/baduga"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/angkut"
+                android:layout_below="@id/title"
+                android:text="Museum Angkut"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/mangk"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/museum_angkut"
+                android:onClick="MuseumAngkut"
+                android:layout_below="@id/angkut"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/baluran"
+                android:layout_below="@id/mangk"
+                android:text="Taman Nasional Baluran"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kbal"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/baluran"
+                android:onClick="Baluran"
+                android:layout_below="@id/baluran"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/cobanrondo"
+                android:layout_below="@id/kbal"
+                android:text="Air Terjun Coban Rondo"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cban"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/coban_rondo"
+                android:onClick="CobanRondo"
+                android:layout_below="@id/cobanrondo"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/gililabak"
+                android:layout_below="@id/cban"
+                android:text="Pulau Gili Labak"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/glbak"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/gili_labak"
+                android:onClick="GiliLabak"
+                android:layout_below="@id/gililabak"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/guagong"
+                android:layout_below="@id/glbak"
+                android:text="Gua Gong"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ggong"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/gua_gong"
+                android:onClick="GuaGong"
+                android:layout_below="@id/guagong"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/jatimpark"
+                android:layout_below="@id/ggong"
+                android:text="Jawa Timur Park"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/jtimprk"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/jatim_park3"
+                android:onClick="JatimPark"
+                android:layout_below="@id/jatimpark"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/kawahijen"
+                android:layout_below="@id/jtimprk"
+                android:text="Kawah Ijen"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kwhjen"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/kawah_ijen"
+                android:onClick="KawahIjen"
+                android:layout_below="@id/kawahijen"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/candi"
+                android:layout_below="@id/kwhjen"
+                android:text="Candi Penataran"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/penataran"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/penataran"
+                android:onClick="CandiPenataran"
+                android:layout_below="@id/candi"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/sukamade"
+                android:layout_below="@id/penataran"
+                android:text="Pantai Sukamade"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pantai"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sukamade"
+                android:onClick="PantaiSukamade"
+                android:layout_below="@id/sukamade"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/klayar"
+                android:layout_below="@id/pantai"
+                android:text="Pantai Klayar"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/klyr"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/pantai_klayar"
+                android:onClick="PantaKlayar"
+                android:layout_below="@id/klayar"
+                android:layout_width="match_parent"
+                android:layout_height="180dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>-->
+
+</RelativeLayout>

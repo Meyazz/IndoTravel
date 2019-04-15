@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".GunungBromo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/image_bromo"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:textColor="@color/white"
+    android:textSize="25dp"
+    android:fontFamily="@font/bebas"
+    android:gravity="bottom"
+    android:text="Gunung Bromo"
+    android:padding="10dp"
+    android:background="@drawable/bromo"
+    android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_button"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@id/image_bromo"
+            android:onClick="openLocation"
+            android:text="Open Location"/>
+
+
+        <TextView
+            android:id="@+id/artikel116"
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/open_location_button"
+            android:lineSpacingExtra="5sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"
+            android:textSize="20dp"
+            android:text="@string/artikel116" />
+        <TextView
+
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artikel116"
+            android:id="@+id/artikel"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="@string/artikel117" />
+
+
+        <TextView
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artikel"
+            android:id="@+id/artikel2"
+            android:lineSpacingExtra="5sp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="@string/artikel118" />
+        <TextView
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artikel2"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="5sp"
+            android:textSize="20dp"
+            android:text="@string/artikel119" />
+
+    </RelativeLayout>
+
+</ScrollView>

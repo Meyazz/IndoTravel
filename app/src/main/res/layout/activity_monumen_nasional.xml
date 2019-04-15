@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_monas"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:text="monumen nasional"
+        android:padding="10dp"
+        android:background="@drawable/monas"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_below="@id/image_monas"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+            <TextView
+                android:id="@+id/artikel23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel23"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel24"/>
+
+    </RelativeLayout>
+
+</ScrollView>

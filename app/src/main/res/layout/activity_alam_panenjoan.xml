@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlamPanenjoan"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_panenjoan"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Panenjoan"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:background="@drawable/panenjoan"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:layout_marginBottom="24dp"
+                android:layout_below="@id/image_panenjoan"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+
+            <TextView
+                android:id="@+id/artike78"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel78" />
+            <TextView
+
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artike78"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel79" />
+
+    </RelativeLayout>
+
+</ScrollView>

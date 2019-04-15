@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CandiPrambanan"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_prambanan"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Candi Perambanan"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="@drawable/candi_prambanan"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_below="@id/image_prambanan"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+
+            <TextView
+                android:id="@+id/artikel110"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel110" />
+            <TextView
+
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel110"
+                android:id="@+id/artikel"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel111" />
+
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel112" />
+
+    </RelativeLayout>
+
+</ScrollView>

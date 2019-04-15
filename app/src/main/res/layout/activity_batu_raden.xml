@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_raden"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_baturaden"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:text="Baturaden"
+        android:background="@drawable/baturaden"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_below="@id/image_baturaden"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+            <TextView
+                android:id="@+id/artikel166"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:lineSpacingExtra="5sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:textSize="20dp"
+                android:text="@string/artikel166" />
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel166"
+                android:lineSpacingExtra="5sp"
+                android:id="@+id/artikel"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:textSize="20dp"
+                android:text="@string/artikel167" />
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel168" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

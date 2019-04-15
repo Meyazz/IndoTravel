@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".agung_banten">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_agung_banten"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        android:text="Masjid Agung Banten"
+        android:fontFamily="@font/bebas"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:gravity="bottom"
+        android:background="@drawable/agung_banten"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_below="@id/image_agung_banten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/custom_button"
+                android:onClick="openLocation"
+                android:text="Open Location"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/artikel186"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:lineSpacingExtra="5sp"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel186" />
+
+
+            <TextView
+             android:id="@+id/artikel187"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel186"
+                android:lineSpacingExtra="5sp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel187" />
+
+    </RelativeLayout>
+</ScrollView>

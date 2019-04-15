@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity_coban_rondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_coban_rondo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Air Terjun COban Rondo"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:fontFamily="@font/bebas"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:background="@drawable/coban"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_coban_rondo"
+                android:layout_marginBottom="24dp"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+            <TextView
+                android:id="@+id/artikel69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:textColor="@android:color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel69" />
+
+    </RelativeLayout>
+
+</ScrollView>

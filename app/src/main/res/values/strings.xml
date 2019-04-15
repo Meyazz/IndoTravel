@@ -1,57 +1,797 @@
 <resources>
-    <string name="app_name">IndoTravel</string>
-    <string name="title_activity_welcome">Home Screen</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
-    <string name="slide_1_title">Renang</string>
-    <string name="slide_1_desc">Nikmati fasilitas renang dengan pemandangan keren</string>
-    <string name="slide_2_title">Jet Ski </string>
-    <string name="slide_2_desc">Jelajahi pantai dengan gaya yang menantang</string>
-    <string name="slide_3_title">Diving</string>
-    <string name="slide_3_desc">View bawah laut yang menjadi sorotan dunia</string>
-    <string name="play_again_desc">Untuk mwlihatnya lagi Settings -> apps -> Intro View -> clear data</string>
-    <string name="play_again">Play Again</string>
-    <string name="judul_anyer">Pantai Anyer</string>
-    <string name="artikel1">   Tentang Pantai Anyer     \n\n
-        Pantai Anyer menjadi pantai yang paling sering dikunjungi wisatawan. Pasirnya yang putih kehitaman dan memanjang menjadikan pantai ini idola masyarakat Banten dan sekitarnya.
-    \n\n
-    open this link:
-    \n\n
-    https://pantaianyer.net/</string>
-    <string name="judul_ujung_kulon">Taman Nasional Ujung Kulon</string>
-    <string name="artikel2">     Tentang\n\n
-Wilayah Semenanjung Ujung Kulon merupakan habitat Badak Jawa (Rhinoceros sondaicus), sehingga dalam pengelolaan wisata alam untuk lokasi ini sangat terbatas sekali. Hal ini dikarenakan agar tidak mengganggu habitat Badak Jawa. Luas wilayah Semenanjung Ujung Kulon ini  ± 38.000 Ha. Kegiatan wisata alam yang dapat di lakukan di lokasi ini antara lain trekking, berkemah dan wildlife viewing.
-
-Di Semenanjung Ujung Kulon terdapat jalur tetap yang dapat digunakan untuk trekking.
+    <string name="app_name">JavaTravel</string>
+    <string name="judul_kampung_baduy">
+        Kampung Baduy
     </string>
-    <string name="artikel3">Fasilitas lainnya adalah Pos Jaga yang terdapat dibeberapa titik seperti Karang Ranjang, Cibunar, dan Cidaon. Selain trekking, kegiatan wisata lainnya yang dapat dilakukan adalah wildlife viewing di Padang penggembalaan Cidaon dan Cigenter, berkemah di Tanjung Layar, dan wisata budaya di Goa Sang Hyang Sirah.
-        \n\n
-    open this link:
-    \n\n
-    http://www.ujungkulon.org/</string>
-    <string name="judul_agung_banten">Masjid Agung Banten
+    <string name="artikel1">Suku Baduy, secara etimologi kata Baduy dipersamakan dengan kelompok atau kabilah Badawi di Arab yang merupakan masyarakat yang suka berpindah-pindah atau nomaden.
     </string>
-    <string name="artikel4">     Tentang\n\n
-masjid ada makam Sultan Maulana Hasanuddin, Sultan Maulana Muhamnad Nasaruddin, Pangeran Ratu (istri Maulana Hasanuddin), Sultan Abdul Abdul Fadhal dan Sultan Abu Nasir Abdul Kohar atau yang dikenal sebagai Sultan Haji, dan Sultan Abul Mufakhir Muhammad Aliyudin, dan Sultan Ageng Tirtayasa.
+    <string name="artikel2">
 
-Setiap tahunnya, ribuan orang biasanya datang ke masjid Agung Banten untuk melakukan ziarah. Setiap hari libur, para peziarah datang mendoakan Sultan Maulana Hasanuddin atau ke makam-makam di komplek masjid. Khusus di malam Jumat, biasanya akan lebih ramai orang akan datang ke sini.
+Menurut saya Baduy sendiri adalah sebutan kepada warga Desa Kanekes yang dianggap sering berpindah-pindah tempat. Mungkin Anda juga sering melihat Suku Baduy melakukan perjalanan jauh, itulah yang menyebabkan mereka disebut Baduy.
+
+    </string>
+    <string name="judul_ocean">Ocean Park BSD City Serpong</string>
+    <string name="artikel3">
+        >Ocean Park Water Adventure atau Ocean Park BSD adalah theme park terkenal yang berada di daerah BSD. Tempat wisata ini sering mengadakan promo, jadi harga tiket masuk Ocean Park bisa lebih murah. Promo ini biasanya berupa promo kartu kredit Ocean Park BSD, promo Ocean Park untuk group atau rombongan dan promo Ocean Park BSD diskon langsung
+
+    </string>
+    <string name="judul_sawarna">Pantai Sawarna</string>>
+    <string name="artikel4">Wisata Sawarna yang berlokasi di kecamatan Bayah, Kabupaten Lebak, Provinsi Banten, merupakan tempat wisata yang sekarang banyak dikunjungi wisatawan luar kota, khususnya dari Jakarta, Bogor dan Bandung. Tempat alternatif untuk liburan.
+Sawarna memiliki segudang tempat wisata yang terbagi menjadi dua jenis wisata, yaitu wisata pantai dan wisata gua. Dan dibawah ini adalah tempat wisata yang banyak di kunjungi wisatawan.
 
 </string>
-    <string name="artikel6">Pengurus kenadziran Masjid Agung Banten, Tb. Abbas Wasse mengatakan kegiatan di masjid ini relatif sepi bila memasuki bulan puasa. Namun, ketika memasuki bulan sawal, ribuan orang selalu datang untuk berziarah ke makam sultan. Memasuki hari ke-29 di bulan Ramadan, warga juga akan datang ke Masjid Agung karena bertepatan dengan khaul Sultan Maulana Hasanuddin.
-    \n\n
-    open tihs link:
-    \n\n
-   http://simas.kemenag.go.id/index.php/profil/masjid/537/ </string>
+    <string name="judul_peucang">Pulau Peucang</string>
+    <string name="artikel5">Pulau Peucang merupakan lokasi yang paling ramai dikunjungi oleh para pengunjung baik dalam maupun luar negeri. Pulau dengan luas kawasan ± 450 ha ini dilengkapi dengan sarana dan prasarana serta berbagai obyek wisata alam yang dapat dikunjungi oleh wisatawan. Fasilitas yang ada di Pulau Peucang antara lain penginapan, pusat informasi, dermaga, dan lain sebagainya.
 
-    <string-array name="android_dropdown_arrays">
-        <item>Pilih Provinsi</item>
-        <item>Banten</item>
-        <item>Jakarta</item>
-        <item>Jawa Barat</item>
-        <item>Jawa Tengah</item>
-        <item>Yogyakarta</item>
-        <item>Jawa Timur</item>
-    </string-array>
+    </string>
+    <string name="judul_umang">Pulau Umang</string>
+    <string name="artikel6">Apa yang Terbukti Hari Ini Dahulu Adalah Imajinasi! Bayangkan .... tinggal di Island Resort di pulau pribadi seluas 5 hektar yang terletak 183 km dari kota Jakarta yang ramai, .... surga mewah yang berada di antara Laut Jawa Barat yang menawan dan pesona pegunungan di sekitarnya, .. .. selesai dengan bahan terbaik dalam nada-nada menenangkan dari detail kayu dengan semua fasilitas modern dari sebuah hotel yang bagus. Bayangkan ...
 
+</string>
+    <string name="judul_tanjung_lesung">Pantai Tanjung Lesung</string>
+    <string name="artikel7">Berada di pantai barat pulau Jawa, Tanjung Lesung dikenal merupakan salah satu area dengan pantai terbaik di dearah Banten yang cocok untuk berenang dengan keindahan pasir putihnya yang menggoda.
+        Hanya membutuhkan waktu 3 jam dari Jakarta, anda akan menemukan lokasi yang sangat cocok bagi para pecinta pantai mengingat area Tanjung Lesung yang murni </string>
+    <string name="artikel8">dan senantiasa terjaga dibawah pengelola kawasan Jababeka. Kecantikan Tanjung Lesung sendiri makin bertambah dengan adanya pemandangan gunung Kraktau yang telah dikenal di seluruh dunia.
+    Kekayaan wisata Tanjung Lesung tidak hanya terdapat pada pantai yang indah, mengingat kawasan yang luas hingga 1500 ha, selain wisata pantai, wisatawan juga dapat sekaligus menikmati suasana hutan dan sawah pedesaan beserta budaya masyarakat sekitar yang masih asli.
+</string>
+    <string name="judul_kidzania">Kidzania</string>
+    <string name="artikel9">KidZania Jakarta adalah sebuah theme park atau ’kota’-nya anak-anak yang mengedepankan unsur pendidikan dan hiburan (edutainment) yang pertama di Asia Tenggara bagi anak-anak usia 2-16 tahun.
+Dirancang dan dibangun khusus menyerupai replika sebuah kota yang sesungguhnya namun dalam skala anak-anak, lengkap dengan jalan raya, fasilitas kota seperti rumah sakit, supermarket, salon, theater, pabrik-pabrik dan masih banyak lagi.
+</string>
+    <string name="artikel10">Di kota ini anak-anak bisa memainkan peran atau profesi orang dewasa, seperti menjadi dokter, pilot, polisi, juru masak, ilmuwan dan lebih dari 100 profesi lainnya.
+Saat ini telah beroperasi 22 KidZania yang tersebar di 18 negara antara lain: Mexico (Santa Fe, Monterrey, Cuicuilco), Jepang (Tokyo dan Koshien), Indonesia (Jakarta), Portugal (Lisbon), Uni Emirat Arab (Dubai), Korea Selatan (Seoul dan Busan), Malaysia (Kuala Lumpur), Chile (Santiago), Thailand (Bangkok), India (Mumbai), Kuwait (Kuwait City), Filipina (Manila), Mesir (Kairo), Turki (Istanbul), Arab Saudi (Jeddah), Brazil (Sao Paulo), Singapore, dan Inggris (London).
+    </string>
+    <string name="artikel11">Di Indonesia, KidZania menempati ruang seluas 7,500 m2 berlokasi di Pacific Place Mall lantai 6, Kawasan Niaga Terpadu, Jl. Jend. Sudirman Kav 52-53, Jakarta, dengan kapasitas pengunjung maksimum 1,800 orang dalam 1 shift.
+
+</string>
+    <string name="judul_museum_nasional">Museum Nasional</string>
+    <string name="artikel12">Eksistensi Museum Nasional diawali dengan berdirinya suatu himpunan yang bernama Bataviaasch Genootschap van Kunsten en Wetenschappen, didirikan oleh Pemerintah Belanda pada tanggal 24 April 1778. Pada masa itu di Eropa tengah terjadi revolusi intelektual (the Age of Enlightenment) yaitu dimana orang mulai mengembangkan pemikiran-pemikiran ilmiah dan ilmu pengetahuan. Pada tahun 1752 di Haarlem, Belanda berdiri De Hollandsche Maatschappij der Wetenschappen (Perkumpulan Ilmiah Belanda)</string>
+    <string name="artikel13">). Hal ini mendorong orang-orang Belanda di Batavia (Indonesia) untuk mendirikan organisasi sejenis.
+Bataviaasch Genootschap van Kunsten en Wetenschappen (BG) merupakan lembaga independen yang didirikan untuk tujuan memajukan penetitian dalam bidang seni dan ilmu pengetahuan khususnya dalam bidang-bidang ilmu biologi, fisika, arkeologi, kesusastraan, etnologi dan sejarah, Berta menerbitkan hash penelitian. Lembaga ini mempunyai semboyan “Ten Nutte van het Algemeen” (Untuk Kepentingan Masyarakat Umum).
+</string>
+    <string name="artikel14">Open This Link
+    \n\n
+        https://www.museumnasional.or.id
+    </string>
+    <string name="judul_taman_mini">Taman Mini Indonesia </string>
+    <string name="artikel15">Taman Mini Indonesia Indah (TMII) merupakan suatu kawasan taman wisata bertema budaya Indonesia di Jakarta Timur. Area seluas kurang lebih 150 hektar[1] atau 1,5 kilometer persegi ini terletak pada koordinat 6 derajat 18 6.8 LS, 106 derajat 53 47.2 BT. Di Indonesia, hampir setiap suku bangsa memiliki bentuk dan corak bangunan yang berbeda, bahkan tidak jarang satu suku bangsa memiliki lebih dari satu jenis bangunan tradisional. Bangunan atau arsitektur tradisional yang mereka buat selalu dilatarbetakangi oleh kondisi lingkungan dan kebudayaan yang dimiliki. Di TMII, gambaran tersebut diwujudkan melalui Anjungan Daerah, yang mewakili suku-suku bangsa yang berada di 33 Provinsi Indonesia.</string>
+    <string name="artikel16">Anjungan provinsi ini dibangun di sekitar danau dengan miniatur Kepulauan Indonesia, secara tematik dibagi atas enam zona; Jawa, Sumatera, Kalimantan, Sulawesi, Bali dan Nusa Tenggara, Maluku dan Papua. Tiap anjungan menampilkan bangunan khas setempat.
+
+Taman ini merupakan rangkuman kebudayaan bangsa Indonesia, yang mencakup berbagai aspek kehidupan sehari-hari masyarakat 33 provinsi Indonesia (pada tahun 1975) yang ditampilkan dalam anjungan daerah berarsitektur tradisional, serta menampilkan aneka busana, tarian dan tradisi daerah.
+
+    </string>
+    <string name="artikel17">open this link
+    \n\n
+        http://www.tamanmini.com/pesona_indonesia/
+    </string>
+    <string name="judul_istiqlal">Masjid Istiqlal</string>
+    <string name="artikel18">Istiqlal, nama masjid kebanggaan orang Indonesia ini ternyata mempunyai banyak keunikan. Selain merupakan masjid terbesar di Asia Tenggara, letaknya yang berhadapan dengan Gereja Katedral Indonesia juga melambangkan kerukunan antar umat beragama di negeri ini. Hal-hal unik apalagi yang ada di Masjid Istiqlal? Yuk disimak!
+    </string>
+    <string name="artikel19">Open This Link
+        \n\n
+    https://istiqlal.id/</string>
+    <string name="judul_bidadari">Pulau Bidadari</string>
+    <string name="artikel20">Pulau Bidadari merupakan salah satu gugusan pulau yang terdapat di Kepulauan Seribu yang dikembangkan sebagai kawasan wisata bahari. Perjalanan menuju pulau ini tidaklah membutuhkan waktu lama karena letaknya yang relatif sangat dekat dengan Jakarta.
+
+Anda hanya butuh waktu sekitar 20 menit dari Pantai Marina Ancol dengan menggunakan speedboat yang disediakan oleh pengelola Wisata Pulau Bidadari
+</string>
+    <string name="artikel21">Kepedulian dalam mempertahankan ecosystem, mengahasilkan pohon-pohon langka masih terpelihara dengan baik serta membentuk hutan yang mengagumkan. Benteng Martello adalah bukti sejarah abad ke-17 peninggalan zaman VOC yang sampai hari ini belum ditemukan pintu masuknya.
+
+Pulau bidadadari merupakan tempat singgah para wisatawan bahari dalam menjelajahi kepulauan seribu.
+</string>
+    <string name="artikel22">Hanya 20 menit dari Marina Jaya Ancol anda akan menemukan kenyamanan dalam suasana Bahari Kepulauan Seribu yang kaya akan pesona alam.
+
+</string>
+    <string name="judul_monas">Monas</string>
+    <string name="artikel23">Tugu Monas, atau Monumen Nasional Jakarta adalah salah satu monumen simbolis yang paling dikenal. Tidak hanya di Indonesia, tugu monas juga menjadi salah satu landscape yang dikenal di luar negeri. Area monumen ini menjadi tempat wisata dan rekreasi favorit di Jakarta, sekaligus juga wisata edukasi dan sejarah.</string>
+    <string name="artikel24">Tugu Monas merupakan monumen berbentuk tugu obelisk, dibangun berdasarkan perintah presiden pertama RI, Ir. Seokarno. Pembangunannya dimulai tanggal 17 Agustus 1961 dan secara resmi dibuka untuk umum pada tanggal 12 Juli 1975.</string>
+    <string name="artikel25">Open this link :
+        \n\n
+https://www.nativeindonesia.com/tugu-monas/
+</string>
+    <string name="judul_mangrove">Taman Wisata Alam Mangrove Angke Kapuk</string>
+    <string name="artikel26">Ada dua hutan mangrove di Jakarta, yang pertama berlokasi di Jalan Pantai Indah Utara I, Jakarta Utara. Hutan ini bernama Hutan Mangrove Jakarta.Tidak ada biaya yang dikeluarkan untuk masuk ke sini, yang ada hanya biaya parkir kendaraan. </string>
+    <string name="artikel27">Namun tempat yang satu ini kurang direkomendasikan karena agak kotor dan sempit. Hutan mangrove yang kedua bernama Taman Wisata Alam Angke Kapuk. Inilah tempat yang sekarang ini sedang populer di media sosial karena banyak tempat yang bisa digunakan untuk foto-foto. Hutan Mangrove ini berlokasi di Pantai Indah Kapuk, Kamal Muara, Jakarta Utara, Indonesia. </string>
+    <string name="artikel28">memilih tempat ini sebagai tempat wisata bersama teman ataupun keluarga, maka kamu tidak salah pilih. Selain untuk berfoto-foto, hutan ini juga bagus untuk menambah pengetahuan, karena termasuk hutan konservasi mangrove
+
+
+</string>
+    <string name="judul_rangunan">Kebun Binatang Ragunan</string>
+    <string name="artikel29">Salah satu destinasi wisata yang terkenal di Jakarta adalah Ragunan. Kebun binatang yang satu ini melintasi Pasar Minggu, Jakarta Selatan. Menempati lahan seluas 140 hektar, Kebun Binatang Ragunan memiliki banyak koleksi satwa liar. Kemungkinan ada 295 spesies dengan 4040 spesimen.</string>
+    <string name="artikel30">Ragunan merupakan kebun binatang yang pertama di Indonesia. Sebelum bernama Ragunan, kebun binatang ini dinamakan Planten En Dierentuin yang memiliki arti Tanaman dan kebun binatang.
+Ragunan dibangun pada 1864.
+    </string>
+    <string name="artikel31">Sebelum ditempatkan lokasi yang sekarang, Kebun Binatang Ragunan terletak di daerah Cikini, Menteng, Jakarta Pusat. Di mana tanah seluas 10 hektar yang digunakan untuk membuat kebun binatang diberikan dari Raden Saleh, seorang pelukis terkenal Indonesia.
+
+
+
+</string>
+    <string name="judul_ancol">Taman Impian Jaya Ancol</string>
+    <string name="artikel32">Pantai Ancol Jakarta selalu menampilkan sebuah pemandangan alam pantai yang eksotis. Hal inilah yang membuat kawasan pantai yang satu ini selalu ramai dikunjungi oleh para wisatawan.
+Ancol merupakan salah satu taman rekreasi dan hiburan pantai yang bisa kita nikmati pada saat liburan di Kota Jakarta.
+    </string>
+    <string name="artikel33">Sore hari merupakan salah satu waktu yang tepat untuk kita bisa menikmati liburan sekaligus keindahan pesisir pantai yang berada di Taman Impian Jaya Ancol Jakarta. Di samping cuaca yang sudah tidak panas, kawasan pantai ini biasanya dijadikan tempat liburan menghabiskan waktu bersama keluarga.
+</string>
+    <string name="artikel34">Spot cantik pantai Ancol menyediakan pesona keindahan yang bisa kita nikmati. Pantai-pantai yang menjadi dermaga kapal yang bersandar di sana, baik jenis kapal tradisional maupun modern semua itu menyajikan pemandangan yang menarik. Kawasan pantai Ancol Jakarta selalu menyajikan sisi keunikan tersendiri dan selalu menarik untuk kita nikmati.
+    Dari pengalaman Direktori Wisata mengunjung ke lokasi pantai Ancol Jakarta, kami selalu menemukan beberapa sisi keunikan tersendiri.
+    </string>
+    <string name="artikel35">Walau dalam keadaan cuaca mendung yang berada di sekitar pantai, kami tetap menemukan sisi keunikan dari keindahan alam yang bisa dinikmati dan didapat di lokasi pantai Ancol.
+
+    </string>
+    <string name="judul_wayang">Museum Wayang</string>
+    <string name="artikel36">Masih bersambung posting tentang museum museum di jakarta , beberapa hari yang lalu kami telah mengulas Museum Sejarah Jakarta, kali ini kami akan mengulas tentang Museum Wayang Jakarta.
+    </string>
+    <string name="artikel37">Museum Wayang Jakarta ini mungkin salah satu musium yang ditujukan untuk orang jawa tentang dunia perdalangan wayang.
+
+    </string>
+    <string name="artikel38">
+Open this link :
+        \n\n
+        https://dolanyok.com/museum-wayang-jakarta/
+
+</string>
+    <string name="judul_kawah_ijen">Kawah Ijen</string>
+    <string name="artikel39">Kawah Ijen adalah sebuah danau kawah yang bersifat asam yang berada di puncak Gunung Ijen dengan tinggi 2.443 meter di atas permukaan laut dengan kedalaman danau 200 meter dan luas kawah mencapai 5.466 Hektar. Danau kawah Ijen dikenal merupakan danau air sangat asam terbesar di dunia[1]. </string>
+    <string name="artikel40">Kawah Ijen berada dalam wilayah Cagar Alam Taman Wisata Ijen Kabupaten Bondowoso dan Kabupaten Banyuwangi, Jawa Timur. Setiap dini hari sekitar pukul 02.00 hingga 04.00, di sekitar kawah dapat dijumpai fenomena blue fire atau api biru, yang merupakan keunikan tempat ini, karena pemandangan alami ini hanya terjadi di dua tempat di dunia yaitu Islandia dan Ijen</string>
+    <string name="artikel41">Open this link :
+
+</string>
+    <string name="judul_klayar">Pantai Klayar</string>
+    <string name="artikel42">Pantai Klayar memiliki Pasir Putih kecoklatan yang sangat lembut dan bersih. Pantai yang tepatnya terletak di desa Kalak, kecamatan Donorejo, kabupaten Pacitan , provinsi Jawa timur ini telah menjadi Pantai komersial yang dikembangkan dan dipromosikan oleh pemerintah Pacitan sebagai destinasi. Keberadaan Pantai Klayar ini tidak lepas dari kisah yang terjadi dahulunya di Pantai tersebut.</string>
+    <string name="artikel43">Ada dua versi yang mengungkapkan asal-usul nama Klayar.  Versi pertama mengungkapkan bahwa dahulu kala ada sebuah Perahu yang diterjang Ombak besar dan terdampar di Pantai ini. Perahu yang terombang ambing diterjang Ombak sebelum terdampar disebut dengan istilah “Glayar” yang kemudian lama kelamaan kata “Glayar” berubah menjadi kata Klayar yang kini menjadi nama Pantai tersebut.</string>
+    <string name="artikel44">Versi kedua asal mula penamaan Pantai Klayar yakni dahulunya memang Pantai ini seringkali dijadikan dikunjungi penduduk untuk berjalan-jalan baik di Pagi maupun Sore Hari. Klayar berasal dari istilah bahasa jawa yakni “klayar-kluyur” yang artinya berjalan-jalan, lama kelamaan kata tersebut lebih di singkatkan menjadi Klayar untuk mempermudah penyebutan.
+
+</string>
+    <string name="judull_angkut">Museum Angkut</string>
+    <string name="artikel45">Museum Angkut merupakan museum transportasi dan tempat wisata modern yang terletak di Kota Batu, Jawa Timur, sekitar 20 km dari Kota Malang. Museum ini terletak di kawasan seluas 3,8 hektar di lereng Gunung Panderman dan memiliki lebih dari 300 koleksi jenis angkutan tradisional hingga modern. Museum ini terbagi dalam beberapa zona yang didekorasi dengan setting landscape model bangunan dari benua Asia, Eropa hingga Amerika.
+    </string>
+    <string name="artikel46">Di Zona Sunda Kelapa dan Batavia yang merupakan Replika Pelabuhan Sunda Kelapa, dihiasi oleh beberapa alat transportasi kuno seperti becak dan miniatur kapal. Zona Eropa juga di setting seakan-akan berada di jalanan kota-kota di Prancis dengan mobil-mobil Selain mobil-mobil kuno, salah satu koleksi terbarunya adalah Mobil listrik Tucuxi milik mantan menteri Dahlan Iskan yang sebelumnya pernah mengalami kecelakaan di sebuah lereng gunung di Magetan saat baru diujicobakan
+    </string>
+    <string name="artikel47">. Di museum ini juga terdapat wahana Flight Simulator yang terletak di lantai 3 gedung museum[5].
+Museum Angkut dikelola oleh Jawa Timur Park Group yang sebelumnya juga membangun Batu Secret Zoo, Batu Night Spectacular (BNS), Eco Green Park dan Museum Satwa. Museum ini didirikan pada 9 Maret 2014.
+
+</string>
+    <string name="judul_sukmade">Pantai Sukamade</string>
+    <string name="artikel48">Pantai Sukamade merupakan salah satu bagian dari Taman Nasional Meru Betiri dan merupakan zona pemanfaatan intensif untuk pengamatan telur penyu dan pelepasan tukik. Di pantai ini pengunjung dapat menyaksikan secara langsung saat penyu bertelur.
+Juga, wisatawan dapat turut aktif dalam usaha konservasi penyu dengan mengikuti kegiatan pelepasan tukik ke laut setelah ditetaskan pada penetasan semi alami
+</string>
+    <string name="artikel49">Bagi mereka yang mencari suasana pantai yang masih asri dan alami, pantai Sukamadebisa menjadi salah satu alternatif untuk dikunjungi. Pantai yang terletak dikawasan taman nasional Meru Betiri ini termasuk dalam deretan pantai selatan sehingga tidak heran bila ombaknya bisa dimanfaatkan untuk berselancar</string>
+    <string name="artikel50">Obyek wisata lain yang ada di Pantai sukamade adalah Hutan mangrove yang terletak di muara timur Pantai Sukamade. Sungai di sekitar mangrove bisa dimanfaatkan untuk cano sambil melakukan pengamatan burung.
+
+</string>
+    <string name="judul_baluran">Pantai Baluran</string>
+    <string name="artikel51">Taman Nasional Baluran terdapat di provinsi Jawa Timur. Wisata Banyuwangi Jawa Timur ini merupakan kekayaan alam alami selain Taman Nasional Alas Purwo yang terkenal dengan keangkerannya. Ada kesamaan tempat dari kedua taman tersebut. Namun, alas purwo lebih dikenal dengan pantai-pantainya yang berombak besar.</string>
+    <string name="artikel52">Taman Nasional Baluran Situbondo Jawa Timur merupakan sebuah taman nasional dengan luas area 25.000 hektar. Anda jangan mengira taman nasional ini seperti taman-taman lain yang berupa hutan belantara. Memang pada sebagian wilayahnya, taman baluran menyediakan juga tempat konservasi alam berupa hutan lindung. Tetapi, wilayah utama wisata baluran adalah hamparan padang rumput yang amat luas. Luas savana baluran ini mencapai sepertiga dari luas keseluruhn taman nasional, yaitu 10.000 hektar. Savana baluran ini adalah savana terluas yang dimiliki Pulau Jawa.</string>
+    <string name="artikel53">Lokasi Taman Nasional Baluran Jawa Timur ini digadang-gadang mirip dengan savana yang berada di benua Afrika. Tidak salah lagi, rerumputan yang terbentang di sepanjang mata memandang, pohon-pohon dengan batang yang mekar terlihat satu dua di atas rumput, dan yang paling menyejukkan mata adalah backgound gunung baluran yang tinggi menjulang yang terlihat mulai dari pangkal hingga pucuk gunung dalam cuaca cerah. Tepat sekali jika julukan Africa Van Java melekat pada taman baluran ini.</string>
+    <string name="artikel54">Taman Nasional Baluran melindungi hewan-hewan padang rumput seperti banteng, kerbau, rusa, monyet berekor panjang, dan burung pemilik ekor panjang, burung merak. Anda bisa melihat keberadaan mereka yang sedang merumput di tengah savana. Sekali-sekali, sekawanan rusa akan melintasi kendaraan Anda yang sedang melewati jalan. Pemandangan ini kerap kali dijumpai di padang rumput seperti ini. Seolah-olah Anda akan dibawa jauh melompat ke afrika dengan dilihatkan situasi demikian.
+
+</string>
+    <string name="judul_jatim_park">Jatim Park </string>
+    <string name="artikel55">
+        Jatim Park I
+        \n\n
+        Berada di Jatim Park I berarti Sobat Native akan mempelajari bebagai macam ragam budaya tentang Indonesia. Semua dikupas tuntas, hingga Sobat Native akan memahami dan bangga dengan apa yang dipunya negeri ini yang dijamin tidak akan dipunya oleh negara lain..
+
+    </string>
+    <string name="artikel56">Jatim Park II
+    \n\n
+        Jatim Park 2 Kota Batu Malang merupakan obyek wisata utama yang di kunjungi wisatawan, terutama domestik dari Jakarta, Bandung, Sumatra, Kalimantan dan dari Seluruh Indonesia. Akses dari Surabaya ke Kota Batu yang tidak lagi terganggu oleh semburan bencana Lumpur Sidoarjo karena di bangun beberapa jalan alternatif fan tol meningkatkan volume paket liburan Batu Malang maupun tempat wisata Gunung Bromo. Dengan jarak tempuh sekitar 100km dan butuh waktu 2,5-3 jam dari Surabaya.
+
+    </string>
+    <string name="artikel57">Jatim Park III
+        \n\n
+        Liburan ke Jawa Timur rasanya tidak lengkap jika kamu belum mengunjungi kota Malang. Selain dikenal sebagai salah satu kota dengan biaya liburan yang cukup murah, Malang juga punya segudang tempat wisata yang bikin liburan kamu jadi tidak terlupakan, dan Jatim Park 3 adalah salah satunya.
+Berjarak 20km dari pusat kota Malang, Jatim Park adalah sebuah taman hiburan yang memadukan konsep taman bermain sekaligus tempat belajar. Di sini kamu akan menemukan banyak sekali tempat seru yang menunggu untuk dijelajahi.
+\n\n
+
+    </string>
+    <string name="judul_gua_gong">Gua Gong</string>
+    <string name="artikel58">Goa Gong terletak di Desa Bomo, Kecamatan Punung, Donorejo, sekitar 140 km arah selatan kota Solo atau 30 km arah Barat Daya Kota Pacitan.
+Dinamakan Goa Gong karena didalamnya terdapat sebuah batu yang jika dipukul akan menimbulkan bunyi seperti Gong yang ditabuh. Perjalanan menuju goa ini relatif mudah, dengan jalanan setapak yang sudah diperbaiki dengan baik.
+</string>
+    <string name="artikel59">Sepanjang jalan menuju Goa Gong akan melewati daerah perbukitan yang dengan goa-goa di dalamnya. Goa-goa di Pacitan ini pada umumnya terbentuk dari jenis batuan Karst, batu yang tampak hitam dan sangat keras. Pada awal mulanya Goa Gong diketemukan oleh dua orang penduduk lokal yang tanpa sengaja sedang ingin mencari sumber air.
+Jangan membayangkan keadaan goa yang gelap dan menakutkan, karena saat masuk ke mulut goa yang sejauh 300 M, pengunjung akan menikmati goa Gong ini dengan nyaman
+</string>
+    <string name="artikel60">Tidak benar-benar terang, tapi goa Gong di fasilitasi dengan cahaya lampu yang temaram di sepanjang jalan masuknya. Hal ini yang menjadikan goa Gong lain dari goa-goa yang lain di Pacitan.
+
+</string>
+    <string name="judul_gili_labak">Gili Labak Island</string>
+    <string name="artikel61">Gili Labak adalah pulau kecil yang terletak di sebelah tenggara pulau Puteran, ibu kota pulau Puteran atau pulau Madura. Secara administratif, pulau ini berada di Kecamatan Talango, Kabupaten Sumenep, Jawa Timur.
+Pulau kecil ini hanya seluas 5 hektar dan ada 35 keluarga yang tinggal di pulau ini. Bagi mereka yang mengunjungi pulau ini dapat menjelajahi seluruh pulau hanya 15 menit dari pantai. Penduduk hidup dengan hasil laut karena tanahnya tidak subur untuk ditanam.
+</string>
+    <string name="artikel62">Di pulau ini, tidak hanya pantai berpasir putih yang bisa kita jelajahi, tetapi juga keindahan dunia bawah laut. Di beberapa titik, pulau ini memiliki pemandangan yang luar biasa, karang laut yang menawan yang dibungkus dengan ikan-ikan indah yang berenang di sekitar lautan, dan membawa keanggunan ke sisi bawah pulau ini. Selain itu, langit biru yang cerah, air yang berkilauan di atas lautan kebiruan dan pantai berpasir putih yang menggelitik adalah hal yang akan membuat Anda akrab saat melakukan perjalanan ke Gili Labak.</string>
+    <string name="artikel63">Sangat disarankan untuk mendatangi pulau ini untuk pelarian Anda yang indah, snorkling, berenang, berjemur atau hanya bermain-main di pantai. Namun, karena tempat asli dan kurangnya fasilitas di sekitar tempat itu, lebih baik bagi Anda untuk membawa peralatan Anda sendiri ketika Anda perlu snorkeling dan menyelam, karena tidak ada peralatan sewaan untuk kesepakatan ini. Ini juga termasuk untuk kebutuhan penting Anda lainnya seperti makanan dan pertolongan pertama. Selain itu, mereka yang ingin tinggal di pulau itu, listrik menyala pada malam hari; dengan menggunakan diesel itu menghidupkan lampu dari 6 - 11 PM.</string>
+    <string name="artikel64">Namun, sembari memanjakan diri Anda di surga tersembunyi ini, tetap hargai alam dan jaga tangan Anda tetap siaga dan tidak memberikan sampah, tanda tangan berbahaya, atau barang tidak penting yang tertinggal di pulau.
+
+    </string>
+    <string name="judul_penataran">Candi Penataran</string>
+    <string name="artikel65">Candi Penataran, adalah sebuah candi berlatar belakang Hindu yang telah ada sejak kerajaan Kediri dan digunakan sampai era kerajaan Majapahit.
+Komplek candi Penataran ini merupakan komplek candi terbesar di Jawa Timur dan terletak di lereng barat daya Gunung Kelud. Terletak pada ketinggian 450 M dari permukaan laut, komplek candi Penataran ini terletak di desa Panataran, kecamatan Nglegok, Blitar.
+</string>
+    <string name="artikel66">Candi Penataran ditemukan pada tahun 1815, dan belum banyak dikenal sampai tahun 1850. Komplek candi ini ditemukan oleh Sir Thomas Stamford Raffles, yang merupakan Letnan Gubernur Jendral pada masa kolonial Inggris di Indonesia pada waktu itu.</string>
+    <string name="artikel67">Raffles bersama-sama dengan Dr.Horsfield seorang ahli Ilmu Alam mengadakan kunjungan ke Candi Panataran, dan hasil kunjunganya dibukukan dalam buku yang berjudul "History of Java" yang terbit dalam dua jilid. Jejak Raffles ini di kemudian hari diikuti oleh para peneliti lain yaitu : J.Crawfurd seorang asisten residen di Yogyakarta, selanjutnya Van Meeteren Brouwer (1828), Junghun (1884), Jonathan Rigg (1848) dan N.W.Hoepermans yang pada tahun 1886 mengadakan inventarisasi di komplek candi Panataran.</string>
+    <string name="artikel68">Nama asli candi Penataran dipercaya adalah Candi Palah yang disebut dalam prasasti Palah, dan dibangun pada tahun 1194 oleh Raja Çrnga (Syrenggra) yang bergelar Sri Maharaja Sri Sarweqwara Triwikramawataranindita Çrengalancana Digwijayottungadewa. Raja Çrnga memerintah kerajaan Kediri antara tahun 1190 - 1200, sebagai candi gunung untuk tempat upacara pemujaan agar dapat menetralisasi atau menghindari mara bahaya yang disebabkan oleh gunung Kelud yang sering meletus.
+
+
+</string>
+    <string name="judul_coban_rondo">Air Terjun Coban Rondo</string>
+    <string name="artikel69">Air Terjun Coban Rondo Malang adalah salah satu air terjun yang berada di area pegunungan yang berada di ketinggian 1.135 meter dpl. Udara yang sangat sejuk dan pemandangan alam yang masih natural menjadi daya tarik tersendiri bagi setiap wisatawan yang datang. Tinggi Air terjun Coban Rondo mencapai 84 meter. Air terjun ini pertama kali diresmikan menjadi tempat wisata pada tahun 1980. Sumber air terjun berasal dari mata air yang berada di sisi lereng gunung Kawi, yaitu mata air Cemoro Mudo. Kuota air yang ditimbulkan mencapai 90 hingga 150 liter per detik.</string>
+    <string name="artikel70">Open this link :
+
+</string>
+    <string name="judul_kawah_putih">Kawah Putih</string>
+    <string name="artikel71">Kawah Putih Bandung adalah sebuah kawah yang dihasilkan dari letusan Gunung Patuha. Nama Kawah Putih merujuk pada tanah yang notabene berwarna putih. Warna putih tanah tersebut disebabkan oleh beberapa unsur yang bercampur dengan belerang. Yang unik dari kawah ini adalah air yang dimilikinya, dimana air di dalam kawah tidaklah berwarna bening melainkan berwarna putih kehijauan. Salah satu tempat wisata di bandung itu airnya dapat berubah ubah sesuai dengan kadar belerang, suhu, dan cuaca yang terjadi pada saat itu.</string>
+    <string name="artikel72">Kawah Putih Bandung terletak di dataran tinggi kawasan pegunungan yang berada kurang lebih 2.400 dpml. Karena berada di dataran yang tinggi inilah membuat suhu di kawah putih Bandung sangat dingin. Rata rata suhu di kawasan tersebut adalah 8 hingga 22 derajat celcius.</string>
+    <string name="artikel73">Karena keindahan dan keromantisan nya yang sangat mempesona, kawah ini kerap dijadikan background fotografi, film, melukis, dan juga pre wedding. Salah satu contoh film yang menjadikan kawah putih sebagai latar belakang adalah film “Heart” yang diperankan oleh Irwansyah, Acha Septriasa, dan Nirina Zubir</string>
+    <string name="artikel74">Kawah putih Bandung juga dijadikan ajang aktivitas menantang lainnya seperti hiking dan berkuda.
+
+
+</string>
+    <string name="judul_wow"> Citra Raya World Of Wonders</string>
+    <string name="artikel75">Kini, TNGers tak perlu jauh–jauh ke Dunia Fantasi Ancol untuk mencicipi asyiknya bermain di wahana. Datang saja ke World of Wonders di Citra Raya, Kabupaten Tangerang.</string>
+    <string name="artikel76">Di World of Wonders atau sering disebut WOW Citra Raya, TNGers dapat menikmati suasana liburan sambil belajar. Ada tujuh miniatur keajaiban dunia yang dapat disaksikan di sana. Dari Indonesia, ada replika Candi Borobudur lengkap dengan patung dewa penjaganya. Selain itu, ada juga tiruan candi utama dari kompleks Candi Prambanan. Jadi, TNGers tidak perlu berkunjung ke Magelang atau Yogyakarta untuk mendapat gambaran umum mengenai kedua candi tersebut.</string>
+    <string name="artikel77">Yogyakarta untuk mendapat gambaran umum mengenai kedua candi tersebut.
+Selain keajaiban dunia dari dalam negeri, TNGers juga dapat menikmati kemegahan Tembok Besar Cina, Piramida Mesir, dan Patung Sphink Agung. Menara Pisa maupun Colosseum yang aslinya berada di Italia juga bisa diamati di World of Wonders Citra Raya Cikupa. WOW Citra Raya juga tidak lupa menampilkan tiruan situs bersejarah Stonehenge yang berasal dari Tanah Britania.
+
+</string>
+    <string name="judul_panenjoan">Alam Panenjoan</string>
+    <string name="artikel78">Bukit Panenjoan adalah bukit tempat kamu melihat pemandangan hamparan sawah dikelilingi pepohonan hutan yang membentuk mega amfiteater. Kata "Panenjoan" sendiri berarti "tempat untuk melihat" dalam bahasa sunda, seperti yang terlihat, memang tempat ini sangat pas untuk menikmati pemandangan alam Ciletuh Geopark.</string>
+    <string name="artikel79">Bukit Panenjoan saat ini menjadi tempat wisata populer di Geopark Ciletuh karena aksesnya yang cukup mudah dan fasilitas pendukung yang lengkap seperti warung, mushola dan tempat parkir. Lokasinya sendiri berhadapan langsung dengan kantor PAPSI (Paguyuban Alam Pakidulan Sukabumi) di mana kamu dapat memperoleh segudang informasi tentang Ciletuh Geopark.</string>
+    <string name="artikel80">
+
+</string>
+    <string name="judul_cisako">Curug Cisako</string>
+    <string name="artikel81">Curug Cikaso ini juga mempunyai nama lain yaitu Curug Luhur, yah nama lain itu adalah sebutan dari warga sekitar Desa Cibitung. Kerennya lagi curug ini mempunyai 3 curahan atau air terjun diantaranya curug meong, curug aki dan curug aesupan. Curug yang mempunyai ketinggian 80 m dan lebar 100 meter ini menyajikan keindahan alam dan air terjun yang memukau.</string>
+    <string name="artikel82">Gemuruh derasnya curug ini membuat nada alam yang menangkan. Selain hijaunya pepohonan, kebut air tak lupa titik – titik embun yang menghiasi dedauan menambah asrinya Curug Cikaso ini.
+Dibawah curug cikaso ini ada sebuah muara yang bernama Tegalbuleud yang sangat jernih dengan warna air biru kehijauan. Muara tegalbuleud ini laumayan luas dimana bisa dimanfaatkan pengunjung untuk bermain air. </string>
+    <string name="artikel83">. Tetapi harapkan bagi pengujung berhati – hati karena muara ini sangat dalam, dan tetap jaga kesopanan di manapun menginggat curug cikaso ini ada mitos di belakangnya.
+
+</string>
+    <string name="judul_green_canyon">Green Canyon</string>
+    <string name="artikel84">Green Canyon atau lebih dikenal sebagai Cukang Taneuh oleh warga sekitar, berlokasi di Desa Kertayasa, Kecamatan Cijulang, Kabupaten Ciamis. Kurang lebih 31 km dari Kota Pangandaran. Asal muasal nama Green Canyon sendiri adalah dari seorang turis Perancis yang datang pada tahun 1993. Hal ini dikarenakan airnya yang jernih kehijauan dari sungai dan lumut hijau berlimpah di sisi tebing yang membuatnya populer dengan nama Green Canyon.</string>
+    <string name="artikel85">Bagi penduduk lokal, Cukang Taneuh memiliki makna jembatan tanah. Hal ini karena di atas lembah dan jurang dari Green Canyon terdapat sebuah jembatan dari tanah yang digunakan oleh para petani setempat untuk menuju kebun mereka</string>
+    <string name="artikel86">
+
+
+</string>
+    <string name="judul_kuruhun">Kampung Karuhun</string>
+    <string name="artikel87">Kampung Karuhun beralamat di Jalan Pagar Betis, Desa Citengah, Sumedang Selatan, Kabupaten Sumedang. Dari arah pusat kota, tempat wisata ini hanya berjarak sekitar 7 km. Jika Anda datang dari Alun-Alun Sumedang, Anda hanya memerlukan waktu sekitar 30 menit berkendara saat kondisi lalu lintas normal.</string>
+    <string name="artikel88">Kampung Karuhun bisa dikatakan sebagai destinasi wisata terpadu dengan konsep Eco Green Park. Jadi, ketika Anda berkunjung ke tempat wisata ini, Anda akan dibawa menikmati nuansa alam yang sangat kental. Untuk mendukung pelestarian alam, Anda pun bisa ikut menanam berbagai macam bibit pohon yang bisa ditanam di area konservasi.</string>
+    <string name="artikel89">Sungai Cihonje dengan air jernih tampak ‘membelah’ Kampung Karuhun. Suasana hutan yang asri dan nyaman ini sangat cocok dijadikan lokasi untuk pertemuan atau gathering. Pasalnya, Kampung Karuhun juga telah dilengkapi dengan berbagai macam fasilitas rekreasi dan acara, sehingga cocok sebagai tempat bersantai keluarga atau rombongan kantor dan organisasi.
+
+</string>
+    <string name="judul_telaga_bodas">Kawah Putih Talaga Bodas</string>
+    <string name="artikel90">Kawah Talaga Bodas merupakan objek wisata alam di Garut bertema wisata alam yang cukup pavorit setelah Gunung Papandayan. Talaga artinya “danau” sedangkan bodas artinya “putih” dan jika diartikan kedalam bahasa Indonesia artinya adalah “Danau Putih”. Sesuai dengan namanya “Talaga Bodas” kawah di Gunung ini membentuk danau dengan air berwarna putih. Meskipun aktivitas vilkanik di kawah ini masih aktif, akan tetapi tidak akan membahayakan keselamatan pengunjung.</string>
+    <string name="artikel91">Suasana sejuk disertai view pemandangan yang indah bisa ditemukan di sini karena Gunung Talaga Boadas masih rimbun dan hijau juga berbatasan langsung dengan hutan belantara. Obejk Wisata ini dikelola oleh BKSDA Jawa Barat II dengan status kepemilikan lahan oleh Departemen Kehutanan.
+
+</string>
+    <string name="artikel92">Open this link :
+
+</string>
+    <string name="judul_genteng">Pantai Ujung Genteng</string>
+    <string name="artikel93">Pantai yang dikenal dengan Pantai penyendiri karena letaknya yang jauh dari keramaian serta dikelilingi nuansa pepohononan yang sejuk, tidak jauh dari ladang pertanian ini merupakan kawasan wisata bahari yang pas bagi para pelancong yang menyukai ketenangan dan kedamaian. Pantai yang terletak di salah satu kabupaten di provinsi Jawa Barat yaitu Sukabumi ini secara detail berada di ujung bawah pulau Jawa.</string>
+    <string name="artikel94">Nama ujung bawah ini tak lain merupakan tafsiran dari ujung genteng atau ujung gunting yang dimaknai sebagai wilayah yang berada di ujung bawah kebalikan dari istilah ujung kulon yang artinya ujung atas. Karena lokasi nya yang cukup terpencil dan masih jarang terjamah manusia, Pantai ini sekilas mirip dengan Pantai-Pantai yang ada di pulau-pulau terpencil yang masih asri dengan udara yang sejuk.</string>
+    <string name="artikel95">Pantai Ujung Genteng ini juga menyediakan berbagai fasilitas umum berupa mushola, toilet, parkiran luas, papan selancar yang disewakan, mini market dan berbagai rumah makan yang menjual makanan khas Sukabumi dan seafood serta kios yang menjual cinderamata dan penginapan.
+
+
+</string>
+    <string name="judul_stone">Stone Garden </string>
+    <string name="artikel96">Stone Garden Padalarang merupakan kawasan wisata yang terletak di kampung Girimulya, Desa Gunung Masigit, Kecamatan Cipatat, Bandung Barat. Lokasinya bisa ditempuh dengan perjalanan sekitar satu jam dengan menggunakan motor dan satu jam 30 menit jika menggunakan mobil dalam keadaan lancar</string>
+    <string name="artikel97">Ada dua jalur yang bisa diambil untuk menuju sana. Pertama, lewat tol Padalarang yang akan langsung mengarah ke stone garden. Kedua, melalui Goa Pawon yang lebih memicu adrenalin karena jalurnya yang cukup terjal dan curam dengan kemiringan 45 derajat.</string>
+    <string name="artikel98">Konon, kawasan dengan pemandangan menawan ini dulunya berada di dasar laut. Namun karena ada aktivitas bumi dan pergeseran lempeng, akhirnya terbentuklah tebing bukit kapur bernama stone garden yang diperkirakan sudah berusia lebih dari 27 tahun.
+
+
+</string>
+    <string name="judul_sri_baduga">Taman Air Mancur Sri Baduga</string>
+    <string name="artikel99">Seperti diketahui Taman Air Mancur Sri Baduga yang berada persis dijantung kota Purwakarta sejak pertama dibuka  17 Pebruari 2017 dan hingga kini digratiskan untuk warga. Khusus pertunjukan air mancur menari hanya dibuka pada Sabtu malam selama tiga sesi pertunjukan. Bahkan dalam beberapa waktu penting bila kunjungan dari Pejabat luar kota Purwakarta sesi pertunjukan air mancur bisa ditambah walaupun bukan hari Sabtu malam.</string>
+    <string name="artikel100">Sebelumnya Taman Air Mancur Sri Baduga merupakan kawasan wisata Situ Buleud dan dalam sejarahnya konon tempat pemandian badak namun lambat laun perkembangannya menjadi tempat area pemancingan ikan oleh warga sekitar,hal itu dituturkan Kepala Bidang Dinas Pemuda Olah raga Pariwisata dan Kebudayaan (Kabid Disporabud) Kabupaten Purwakarta Herry Anwar kepada wartawan Swara Pendidikan saat berkunjung pada Sabtu malam (26/8).</string>
+    <string name="artikel101"> Lebih jauh ia menjelaskan,“pembangunan ini dianggarkan dari APBD bertahap selama 3 tahun dengan pembangunan taman rekreasi dengan luas lebih dari 2 hektar sekaligus tempat wisata untuk  warga lokal dan warga daerah lain maka dampak secara ekomomi dan sosial wargapun berubah lebih baik, hotel atau tempat penginapan dipenuhi warga domestik pada setiap malam minggu juga </string>
+    <string name="artikel102">di area tersebut terdapat Kampoeng Maranggi yang merupakan kumpulan pedagang sate maranggi dari berbagai daerah di Purwakarta dan Wisata Kuliner Tjeplak yang menyuguhkan berbagai makanan dan minuman yang rata-rata tradisional,”jelasnya.
+
+
+</string>
+    <string name="judul_remis">Telaga Remis </string>
+    <string name="artikel103">Suasana sejuk nan permai dengan pemandangan pepohonan pinus hijau menjadi sajian yang tersaji di sebuah danau kawasan Desa Kaduela, Kecamatan Mandirancan, Kabupaten Kuningan, Jawa Barat. Adalah Telaga Remis, danau yang menawarkan suasana ketenangan berbalut dengan keindahan yang alami.
+
+</string>
+    <string name="artikel104">Berjarak kurang lebih 37 km atau dapat ditempuh 1 jam dari pusat Kota Kuningan, Telaga Remis memiliki lahan seluas 13 hektar untuk wilayah keseluruhan. Sedangkan luas danau atau telaganya hanya mencapai 3,25 hektar.
+
+</string>
+    <string name="artikel105">Suasana asri bercampur dengan udara yang sejuk membuat Telaga Remis sangat pas dijadikan tempat untuk sekedar melepas kepenatan. Adanya wahana sepeda air untuk berkeliling menambah keasyikan tersendiri saat berkunjung ke area wisata yang saat ini dikelola oleh Perum kehutanan Kabupaten Kuningan ini.</string>
+    <string name="artikel106">
+        \n\n
+        Open this link :
+        \n\n
+https://www.gotravelly.com/review/detail/628-telaga_remis_kuningan
+
+</string>
+    <string name="judul_sri_gethuk">Air Terjun Sri Gethuk </string>
+    <string name="artikel107">Air Terjun Sri Gethuk ini memiliki keunikan dan berbeda dengan air tejun lain di Yogyakarta. Air Terjun Sri Gethuk  terletak di tebing yang disampingnya mengalir aliran sungai. Untuk itu jika anda ingin mengunjungi Air Terjun Sri Gethuk  anda harus menyusuri sungai dengan jarak kurang lebih 700 meter.</string>
+    <string name="artikel108">Tidak perlu khawatir, anda akan disediakan semacam perahu yang terbuat dari drum hasil kretivitas pengelola. Dengan menggunakan perahu ini anda akan dibawa menyusuri sungai eksotis dengan pemandangan kanan kiri yang luar biasa.
+Jaraknya yang kurang lebih 700 meter menuju air terjun, durasi anda menaiki perahu kurang lebih 10 hingga 15 menit. </string>
+    <string name="artikel109">Namun jika anda seseorang dengan jiwa petualangan yang tinggi, anda dapat memilih jalur jalan setapak naik turun bukit untuk mencapai air terjun ini. Pemandangan dari jalur ini pun tidak kalah menarik, namun anda hanya perlu tenaga dan waktu ekstra untuk bolak-balik menuju  dan kembali dari Air Terjun Sri Gethuk.
+
+</string>
+    <string name="judul_prambanan">Candi Prambanan</string>
+    <string name="artikel110">Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi oleh Raja-raja Wamca (Dinasty) Sanjaya. Candi Prambanan merupakan kompleks percandian dengan candi induk menghadap ke timur, dengan bentuk secara keseluruhan menyerupai gunungan pada wayang kulit setinggi 47 meter. </string>
+    <string name="artikel111">. Candi Prambanan sering disebut juga dengan nama Candi Rara Jonggrang, karena dongeng cerita rakyat jawa yang menyertainya.
+Candi Prambanan dipersembahkan untuk Trimurti, tiga dewa utama Hindu. Brahma sebagai dewa pencipta, Wishnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. </string>
+    <string name="artikel112">Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna ‘Rumah Siwa’), dan memang di ruang utama candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan.
+
+</string>
+    <string name="judul_pindul">Goa Pindul </string>
+    <string name="artikel113">Goa Pindul Jogja adalah sebuah goa yang sangat unik, dimana di dalam goa ini terdapat sebuah sungai yang melintas disepanjang goa tersebut. Aktivitas yang umumnya dilakukan di wisata ini adalah cave tubing. Cave tubing adalah aktifitas menyusuri sungai yang ada di dalam goa dengan menggunakan sebuah ban pelampung. cave tubing sebenarnya hampir mirip dengan rafting. Hanya saja yang membedakan keduanya adalah, rafting biasanya dilakukan di aliran air sungai yang deras. Sedangkan cave tubing dilakukan di aliran sungai yang tenang.</string>
+    <string name="artikel114">Goa Pindul Jogja memiliki panjang 350 meter dengan lebar 5 meter. Terdapat tiga zona yang harus dilalui ketika melintas di Goa Pindul, yaitu zona terang, zona gelap, dan zona remang. Zona terang terdapat di area start ketika hendak memasuki goa. Zona remang berada di beberapa meter setelah memasuki pintu goa. Dan Zona Gelap berada di tengah tengah dalam goa Pindul.</string>
+    <string name="artikel115">Tepat di tengah tengah goa terdapat ruang yang cukup besar, dan uniknya diatas ruang tersebut terdapat sebuah lobang, yang biasanya digunakan sebagai jalur pintu masuk vertikal oleh TIM SAR . Dari lobang ini sinar matahari dapat masuk menyinari ke dalam goa. Sehingga menjadikan pemandangan di dalam Goa menjadi sangat luar biasa indah.
+
+</string>
+    <string name="judul_bromo">Gunung Bromo</string>
+    <string name="artikel116"> Gunung Bromo menyimpan keindahan alam yang sayang untuk dilewatkan. Gunung berapi yang masih aktif ini secara administratif berada di empat wilayah kabupaten di Jawa Timur, antara lain Kabupaten Malang, Pasuruan, Lumajang dan Probolinggo. Hal ini memudahkan wisatawan untuk datang dari arah manapun. Gunung ini merupakan bagian dari Taman Nasional Bromo Tengger Semeru dan telah menjadi tempat wisata paling terkenal di provinsi Jawa Timur. Taman nasional seluas 800 km persegi ini melingkupi kawasan Gunung Bromo dan Gunung Semeru.</string>
+    <string name="artikel117">Gunung ini terkenal dengan pemandangan matahari terbitnya yang indah. Untuk bisa menyaksikan fenomena ini, para wisatawan harus naik ke Puncak Penanjakan yang merupakan lokasi terbaik untuk dapat melihat matahari terbit. Jika menginap di sebuah penginapan anda dapat berpesan kepada pemilik penginapan untuk dibangunkan di pagi, karena keesokan harinya sekitar jam 2 dini hari, anda akan dibangunkan untuk persiapan mendaki</string>
+    <string name="artikel118">karena mendaki akan terbayar lunas dengan pemandangan matahari terbit yang luar biasa. Saat matahari perlahan merangkak naik, susasana akan sangat tenang dan hanya terdengar bunyi jepretan kamera wisatawan.
+Gunung Bromo memiliki kawah dengan panjang diameter sekitar 800 meter dari utara ke selatan dan 600 meter dari barat ke timur. </string>
+    <string name="artikel119">Dengan kandungan belerang yang ada di kawah, tak mengherankan jika bau belerang cukup tajam tercium saat anda berada berdiri di tepiannya. Untuk dapat menikmati keindahan kawah ini, anda harus menaiki 250 anak tangga terlebih dahulu. Jika ini terdengar melelahkan, tersedia kuda-kuda milik warga sekitar yang bisa anda sewa.
+
+</string>
+    <string name="judul_keraton">Keraton Yogyakarta</string>
+    <string name="artikel120">Keraton Yogyakarta ini berawan dari sejak abad ke 15 yaitu Kasultanan Yogyakarta dimulai tahun 1558 Masehi dimana Ki Ageng Pemanahan dihadiahi oleh Sultan Pajang sebuah wilayah di Mataram karena jasa-jasanya membantu Pajang mengalahkan Aryo Penangsang. Ki Ageng Pemanahan merupakan putra dari Ki Ageng Ngenis dan cucu dari Ki Ageng Selo, seorang tokoh ulama besar dari Selo, Kabupaten Grobogan.</string>
+    <string name="artikel121">Ki Ageng Pemanahan pada tahun 1577 membangun istana di Pasargede atau Kota Gede. Selama menempati wilayah pemberian Sultan Pajang, Ki Ageng Pemanahan tetap setia pada Sultan Pajang hingga akhirnya wafat pada tahun 1584 dan dimakamkan di sebelah Masjid Kotagede.</string>
+    <string name="artikel122">Selanjutnya kepemimpinan di Kotagede diteruskan oleh putranya yaitu Sutawijaya yang juga disebut Ngabehi Loring Pasar yang memang waktu itu rumahnya berada di sebelah utara pasar. Kepemimpinan Sutawijaya berbeda dengan ayahnya yaitu menolak tunduk pada Sultan Pajang.</string>
+    <string name="artikel123">Melihat ketidakpatuhan Sutawijaya tersebut, kerajaan Pajang merencanakan merebut kembali kekuasaanya di Mataram. Selanjutnya pada tahun 1587 kerajaan Pajang menyerang Mataram dan terjadilah pertempuran yang hebat. Dalam pertempuran ini justru pasukan Pajang mengalami kekalahan karena diterjang badai letusan Gunung Merapi sedangkan Sutawijaya dan pasukannya bisa menyingkir dan akhirnya selamat.
+
+</string>
+    <string name="artikel124">Open this link :
+        \n\n
+https://www.njogja.co.id/kota-yogyakarta/keraton-yogyakarta/
+
+</string>
+    <string name="judul_malioboro">Malioboro</string>
+    <string name="artikel125">Malioboro menyajikan berbagai aktivitas belanja, mulai dari bentuk aktivitas tradisional sampai dengan aktivitas belanja modern. Salah satu cara berbelanja di Malioboro adalah dengan proses tawar-menawar terutama untuk komoditi barang barang yang berupa souvenir dan cenderamata yang dijajakan oleh pedagang kaki lima yang berjajar di sepanjang trotoar jalan Malioboro. Berbagai macam cederamata dan kerajinan dapat anda dapatkan disini seperti kerajinan dari perak, kulit, kayu, kain batik, gerabah dan sebagainya.</string>
+    <string name="artikel126">Anda jangan heran melihat harga barang ditempat ini, misalnya penjual souvenir menawarkan barang tersebut seharga Rp.50.000,- Kalau anda tertarik barang tersebut maka tawaran tersebut harus segera disusul dengan proses tawar menawar dari wisatawan. Dari proses tersebut harga menjadi turun drastis, misalnya pedagang tersebut akhirnya rela melepas barang tersebut dengan harga Rp.20.000,-. Hal ini juga berlaku bila wisatawan berkunjung dan belanja di pasar tradisional Beringharjo yang letaknya tak jauh dari Malioboro. Begitulah keunikan tradisi dari wisata belanja di Malioboro, pembeli harus bisa tawar menawar.</string>
+    <string name="artikel127">Kawasan Malioboro dekat dengan obyek wisata sejarah lainya yang sangat banyak menyimpan cerita sejarah yang menarik. Setelah anda berbelanja di Malioboro anda bisa meneruskan mengunjungi obyek wisata lain yang jaraknya cukup dekat. Tempat dan obyek wisata tersebut seperti berwisata arsitektur peninggalan kolonial Belanda dan wisata belanja tradisional lainnya. Obyek wisata sejarah yang berdekatan dengan Malioboro seperti : Keraton Yogyakarta, Alun-alun Utara, Masjid Agung, Benteng Vredeburg, Museum Sonobudoyo dan Kampung Kauman.</string>
+    <string name="artikel128">Wisata Arsitektur peninggalan kolonial di Yogyakarta yang masih bisa disaksikan seperti Gedung Siciatet ( sekarang menjadi Taman Budaya ), Bank Indonesia, Hotel Inna Garuda dan Bank BNI’46. Sedangkan wisata belanja tradisional yang cukup berdekatan dengan Malioboro terdapat di Pasar Ngasem dan Pasar Beringharjo. Terdapat juga perpustakaan umum milik Pemerintah Provinsi DIY bagi wisatawan yang gemar membaca.
+
+</string>
+    <string name="artikel129">Open this link :
+        \n\n
+https://www.njogja.co.id/kota-yogyakarta/malioboro-yogyakarta/
+</string>
+    <string name="judul_indrayanti">Pantai Indrayanti </string>
+    <string name="artikel130">Pantai Indrayanti menawarkan keindahan alam yang begitu menakjubkan. Tak heran jika banyak wisatawan yang terus berdatangan terutama saat akhir pekan.
+Salah satu objek wisata pantai Gunung Kidul ini memang lokas yang tepat untuk refreshing bersama keluarga, sahabat, rekan kerja dan sebagainya
+</string>
+    <string name="artikel131">
+        Hamparan pasir putih berpadu dengan birunya air laut seakan menjadi pesona yang tiada dua. Ditambah lagi dengan adanya bukit yang bisa Anda daki untuk menyaksikan keelokan pantai Indrayanti dan bentangan Samudra Hindia.   Pilihlah waktu yang tepat jika Anda berencana mengunjungi wisata pantai Yogyakarta yang satu ini.</string>
+    <string name="artikel132"> Jika terpaksa harus berkunjung saat akhir pekan, libur nasional, atau liburan sekolah, siap-siap aja melihat kerumunan orang sperti halnya di pasar.
+Maklum, kepopuleran pantai cantik ini memang mampu mendongkrak anemo masyarakat untuk berkunjung. </string>
+    <string name="artikel133"> Nah, sebaiknya mengunjungi pantai ini saat hari-hari biasa.
+
+   Dengan demikian, Anda bisa dengan puas menikmati suasana dan pesona alam yang menakjubkan tanpa harus diiringi suara gemuruh wisatawan yang berbondong-bondong datang.
+Perhatikan pula cuaca, sebaiknya datang saat cuaca cerah dan tidak hujan.
+
+</string>
+    <string name="artikel134">Open this link :
+        \n\n
+https://mytrip123.com/pantai-indrayanti-gunung-kidul-yogyakarta/
+
+</string>
+    <string name="judul_parangitis">Pantai Parangtritis</string>
+    <string name="artikel135">Pantai Parangtritis memang terkenal diantara para wisatawan, karena selain memiliki legenda yang melekat dengan Ratu Kidul sebagai penguasa laut selatan, namun ternyata keindahannya tidak bisa bisa diragukan lagi karena pantai ini merupakan pantai paling luas di Yogyakarta dimana memiliki luas berkilo-kilo meter persegi, berbeda dengan pantai-pantai di kawasan Yogyakarta lainya seperti Pantai di Gunung Kidul yang ukurannya relatif kecil.
+
+</string>
+    <string name="artikel136">Salah satu destinasi wisata terfavorit di kawasan Yogyakarta ini memang tidak pernah dilupakan oleh para wisatawan, dimana karena ukurannya yang cukup luas membuat Pantai ini menawarkan aktivitas yang tidak terbatas bagi para wisatawan seperti mengelilingi pantai dengan menggunakan </string>
+    <string name="artikel137">motor ATV, Kuda maupun Delman, melakukan olahraga seperti sepak bola di pasir, bermain di pinggir ombak, bermain layangan, atau sekedar duduk-duduk sambil menikmati suasana Pantai Parangtritis yang begitu menawan.
+
+Selain aktivitas yang dapat anda lakukan seperti yang Alodia sebutkan diatas, di Pantai Parangtritis ini anda juga bisa renang di kolam yang disediakan di pantai, </string>
+    <string name="artikel138">terutama anak-anak sangat menyukai aktivitas ini. Selain itu juga terdapat puluhan warung yang menyediakan beragam suguhan khas pantai seperti masakan ikan gurameh, pari, cumi, dan udang yang tentunya sangat nikmat apabila kita memakannya di pinggir pantai.
+
+</string>
+    <string name="judul_pintar">Taman Pintar </string>
+    <string name="artikel139">Taman Pintar Yogyakarta (TPY ) adalah salah satu wisata pendidikan atau wisata edukasi paling banyak di kunjungi di Yogyakarta.  Rasanya belum lengkap bila mengunjungi kota Yogyakarta tidak menyempatkan diri bermain ke Taman Pintar  Yogyakarta bersama keluarga dan anak-anak. Pada bangunannya menampilkan nuansa modern dan tradisional yang mempunyai keindahan tersendiri. </string>
+    <string name="artikel140">Taman ini menawarkan wahana belajar dan rekreasi yang cukup lengkap untuk anak-anak, baik usia pra sekolah sampai tingkat sekolah menengah. Pada rentang usia tersebut merupakan generasi penerus yang potensial mendapat pencerahan belajar ilmu dann tekhnologi (iptek)</string>
+    <string name="artikel141">Taman Pintar didirikan atas gagasan dari Walikota Yogyakarta Herry Zudianto SE, Akt, MM yang selanjutnya dibangun diatas tanah seluas 12.000 m2. Wisatawan yang masuk ke taman ini bisa langsung mencoba dan menyaksikan hasil karya dari sebuah inovasi dan teknologi dan permainan yang sangat menarik dan banyak bermuatan edukasi pagi anak-anak</string>
+    <string name="artikel142">Terbentuknya taman pintar Yogyakarta  semacam ini sebelumnya terinspirasi dari berdirinya pusar peragaan iptek yang sudah ada sebelumnya yang berlokasi di Taman Mini Indonesia Indah Jakarta yang selanjutnya menjadi contoh untuk pengembangan di daerah lain. Di Yogyakarta dengan Taman Pintarnya, dan di Jawa Timur dengan Jawa Timur Parknya dan semoga segera menyusul daerah lain untuk membangun tempat wisata berorientasi pendidikan untuk anak-anak.
+</string>
+    <string name="artikel143">Taman Pintar dibangun mulai bulan Mei 2006 dan setahun kemudian pada tanggal 9 Juni 2007 diresmikan oleh Gubernur Daerah Istimewa Yogyakarta, Sultan Hamengku Buwono X bersama dua menteri yaitu Menteri Riset dan Tekhnologi ( Menristek ), Kusmayanto Kadiman, P.h.D dan menteri Pendidikan Nasional ( Mendiknas ), Prof. Dr. Bambang Sudibyo, MBA.
+</string>
+    <string name="artikel144">
+Taman ini menawarkan model edukasi atau pembelajaran yang memadukan konsep pendidikan dan permainan dengan media yang menarik sehingga dapat merangsang keingintahuan anak dan memancing kreativitas anak terhadap iptek.
+
+</string>
+    <string name="judul_tugu">Tugu Yogyakarta </string>
+    <string name="artikel145">Tugu Yogyakarta merupakan salah satu simbol atau ciri khas Yogyakarta. Tugu Yogya terletak di simpang empat antara Jl Sudirman di sisi timur, Jl AM Sangaji di sisi utara, Jl Diponegoro di sisi barat dan Jl Mangkubumi di sisi selatan. </string>
+    <string name="artikel146">Tugu Yogyakarta disebut Tugu Pal Putih atau dalam Bahasa Belanda disebut De Witte Paal. Dulu pada zaman Belanda juga disebut Tugu Golong-Gilig. Disebut tugu golong-gilig karena dibagian atas ada seperti bulatan bola. Sedangkan di bagian bawah atau penyangga berbentuk bulat panjang atau dalam Bahasa Jawa disebut gilig. </string>
+    <string name="artikel147">Golong-Gilig mengandung arti menyatukan hubungan antara raja/kasultanan Yogyakarta dengan rakyatnya. Namun setelah terjadi gempa bumi pada tangga 10 Juni 1867, tugu golong-gilig runtuh kemudian dibangun kembali bentuknya seperti sekarang ini.
+
+    </string>
+    <string name="judul_gembira">Kebun Binatang Gembira Loka</string>
+    <string name="artikel148">Kebun Binatang Gembira Loka Yogyakarta adalah kawasan yang bisa dibilang super lengkap. Dimana,kalian akan disuguhkan berbagai macam hewan yang menggemaskan, lucu, dan menakutkan. Ada pula atraksi hewan-hewan yang menarik untuk disaksikan. Tidak hanya manusia saja yang bisa melakukan sebuah akrobatik, melainkan hewan pun juga bisa.Kebun Binatang Gembira Loka Yogyakarta adalah kawasan yang bisa dibilang super lengkap. Dimana,kalian akan disuguhkan berbagai macam hewan yang menggemaskan, lucu, dan menakutkan. Ada pula atraksi hewan-hewan yang menarik untuk disaksikan. Tidak hanya manusia saja yang bisa melakukan sebuah akrobatik, melainkan hewan pun juga bisa.</string>
+    <string name="artikel149">Sebagai taman hiburan yang informatif, setiap kandang diberi papan informasi tentang penyebaran hewan dan bagaimana keadaan hewan saat ini. Para wisatawan pun bisa belajar banyak dari papan-papan ini.</string>
+    <string name="artikel150">Ada pula atraksi para hewan yang pasti akan memukau setiap wisatawan yang berkunjung. Ada jam jadwal pertunjukan khusus, sehingga Teman Traveler harus menyesuaikannya.</string>
+    <string name="artikel151">Jangan lupa pula untuk menikmati Kebun Botani. Disuguhkan keanekaragaman Flora yang sangat penting untuk kebutuhan bioteknologi, penelitaian, budidaya dan juga pendidikan.
+
+</string>
+    <string name="judul_borobudur">Candi Borobudur </string>
+    <string name="artikel152">Borobudur adalah candi Budha yang terletak di daerah Magelang, Jawa Tengah. Lokasi Candi Borobudur ini kurang lebih berada di 40 km di sebelah barat laut kota Jogja. Jarak tempuhnya sekitar 1 jam, dari kota Jogja. Candi berbentuk stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 750-800-an Masehi pada masa pemerintahan Wangsa Syailendra. Ya, Candi Borobudur dibangun jauh Candi Angkor Wat di Kamboja yang baru dibangun pada pertengahan abad ke-12 oleh Raja Suryavarman II.</string>
+    <string name="artikel153">Sesuai dengan arti namanya, Bara yang berarti kompleks biara dan Budur yang berarti atas, Candi Borobudur terledak di atas sebuah bukit dengan megahnya.Bangunan Candi Borobudur terbagi menjadi 10 tingkat dalam bentuk punden berundak. 10 tingkat bangunan Candi Borobudur tersebut melambangkan tahapan dan proses hidup manusia.
+
+</string>
+    <string name="artikel154">Open this link :
+
+</string>
+    <string name="judul_dieng">Dataran Tinggi Dieng </string>
+    <string name="artikel155">Dieng Plateau atau yang dikenal juga dengan sebutan Dataran Tinggi Dieng, dilihat dari sisi administratif/geografis, letak daerah ini bisa dibilang unik. Sangat jarang ditemukan di Indonesia dimana satu wilayah terbagi menjadi dua wilayah Administratif seperti Dieng, dimana bagian wilayah barat ( Dieng Kulon ) Masuk Wilayah Kabupaten Wonosobo, dan Sebelah Timur masuk Kabupaten Banjarnegara.</string>
+    <string name="artikel156">Kondisi alam Pegunungan Dieng dengan tanahnya yang subur menjadikan sektor pertanian sebagai Pencaharian utama masyarakat dataran Tinggi Dieng. Jenis-jenis tanaman seperti Kentang, Kobis, Wortel tumbuh subur dalam-petak-petak lahan penduduk yang tersebar di lanskap dan perbukitan Dieng.</string>
+    <string name="artikel157">Dieng kaya akan Khasanah Budaya baik dalam bentuk peninggalan Benda-benda bersejarah, tapi juga seni tari serta Upacara-upacara Tradisional yang terus bertahan dan dilestarikan secara turun-temurun oleh masyarakat Dieng. Panorama alamnya pun tak Kalah menarik sebagai tujuan berlibur.
+
+
+</string>
+    <string name="judul_grojogan">Grojogan Sewu</string>
+    <string name="artikel158">Air Terjun yang satu ini cukup unik. Namanya tidak hanya dipakai di satu tempat saja. Beberapa daerah pun memakai nama ini untuk air terjun mereka. Entah mengapa nama ini sering digunakan. Tetapi, satu hal yang pasti nama Grojogan Sewu mempunyai panorama yang mengundang decak kagum di setiap wilayahnya.</string>
+    <string name="artikel159">Seperti nama Grojogan Sewu yang dimiliki oleh Karanganyar. Terletak di bawah kaki Gunung Lawu, air terjun yang mempunyai ketinggian sekitar 81 meter ini memiliki panorama yang tidak akan tertandingi oleh mana pun.
+
+</string>
+    <string name="artikel160">Open this link :
+        \n\n
+https://www.nativeindonesia.com/grojogan-sewu/
+
+</string>
+    <string name="judul_merbabu">Gunung Merbabu </string>
+    <string name="artikel161">Gunung Merbabu terletak di jawa tengah dengan ketinggian 3.142M dpl pada puncak Kenteng Songo. Gunung Merbabu berasal dari kata "meru" yang berarti gunung dan "babu" yang berarti wanita. Gunung ini dikenal sebagai gunung tidur meskipun sebenarnya memiliki 5 buah kawah: kawah Condrodimuko, kawah Kombang, Kendang, Rebab, dan kawah Sambernyowo.</string>
+    <string name="artikel162">Terdapat 2 buah puncak yakni puncak Syarif (3119m) dan puncak Kenteng Songo (3142m). Puncak Gn.Merbabu dapat ditempuh dari Cunthel, Thekelan, (Kopeng / Salatiga) Wekas (Kaponan / Magelang) atau dari selo (Boyolali). Perjalanan akan sangat menarik bila Anda berangkat dari jalur Utara (Wekas, Cunthel, Thekelan) turun kembali lewat jalur selatan (Selo).</string>
+    <string name="artikel163">Pemandangan yang sangat indah dapat disaksikan disepanjang perjalanan tersebut. Banyak terdapat gunung disekitar gunung Merbabu, diantaranya Gn. Merapi, Gn.Telomoyo, Gn.Ungaran. Gunung Merbabu ini membentuk garis deretan gunung berapi ke arah utara Merapi - Merbabu - Telomoyo - Ungaran.</string>
+    <string name="artikel164">Kecamatan Selo masuk wilayah Kabupaten boyolali, Jawa Tengah. Selo berada di tengah-tengah antara Gunung Merbabu dan Gunung Merapi. Pendaki yang hendak menapaki puncak Gunung Merapi lebih suka mengambil jalur dari Selo ini. Sedangkan Pendaki Gunung Merbabu lebih suka mendaki dari Kopeng dan turun di Selo.</string>
+    <string name="artikel165">Open this link :
+        \n\n
+https://tngunungmerbabu.org/
+</string>
+    <string name="judul_baturaden">Kawasan Wisata Baturaden</string>
+    <string name="artikel166">Wisata Baturaden merupakan tempat wisata yang berada di sebelah utara Kota Purwokerto atau tepatnya di lereng gunung slamet, jika sebelumnya kita membahas tentang wisata Telaga Warna di Wonosobo. Sekarang kita akan melirik wisata alam nan indah dan romantis yaitu Baturaden.</string>
+    <string name="artikel167">Wisata Baturaden banyak dikunjungi oleh wisatawan baik lokal maupun luar negeri, tidak sedikit hotel dan vila indah berdiri di kawasan ini untuk memenuhi kebutuhan tempat tinggal di kawasan baturaden, dengan hawa yang sejuk dan pemandangan yang indah membuat wisatawan betah untuk tinggal di setiap hotel maupun vila yang ada di sini.</string>
+    <string name="artikel168">Jika masa kecil kalian sering mendengar akan lenggenda Lutung Kasarung maka tempat inilah yang menjadi latar utama dari dongeng tersebut, dongeng Lutung Kasarung berkembang di masyarakat Baturaden, atas alasan inilah lengenda dan dongeng dari lutung kasarung tak luput dari Kawasan Wisata Baturaden. Baturaden sendiri berasal dari kata ‘Batur’ yang dalam bahasa Jawa berarti Pembantu, Teman, atau Bukit dan ‘Raden’ berarti Bangsawan</string>
+    <string name="artikel169">Open this link :
+        \n\n
+https://mytrip123.com/wisata-baturaden-yang-indah-dan-romantis/
+</string>
+    <string name="judul_agung_jateng">Masjid Agung Jawa Tengah</string>
+    <string name="artikel170">Meskipun Masjid Agung Jawa Tengah merupakan tempat untuk beribadah umat Islam, namun di sini banyak pula para wisatawan datang. Ornamen dan desain yang unik dari masjid ini adalah salah satu daya tarik dari masjd yang telah diresmikan pada tanggal 14 November 2006 oleh Mantan Presiden Susilo Bambang Yudhoyono.</string>
+    <string name="artikel171">Masjid Agung Jawa Tengah (MAJT) ini berdiri di tanah seluas 10 hektar dan dirancang dengan gaya arsitektur campuran Jawa, Islam dan Romawi.
+        \n\n
+Asitektur Jawa sendiri diterapkan pada bangunan utama masjid dengan menonjolkan atap berbentuk limas. Sedangkan arsitektur Islam ditonjolkan lewat kubah besar dan menara di setiap ujung bangunan.</string>
+    <string name="artikel172">Lalu gaya Romawi ditonjolkan dengan 25 pilar bergaya koloseum Athena di Romawi yang dihiasi dengan kaligrafi  indah menyimbolkan 25 Nabi dan Rosul. Benar-benar masjid yang unik, ya?</string>
+    <string name="artikel173">Open this link :
+        \n\n
+https://phinemo.com/destination/masjid-agung-jawa-tengah/
+</string>
+    <string name="jadul_rafting">Progo Rafting</string>
+    <string name="artikel174">Progo Rafting adalah provider professional jasa wisata arung jeram yang mengemas berbagai kegiatan trip arung jeram di sungai Progo dan sungan Elo Magelang. Di kenal juga dengan operator arung jeram Progo atau Progo Xventours. Berdiri tahun 1997, beralamat kantor dan pusat  layanan kegiatan di Hotel Puri Asri (bintang 5), Kota Magelang.</string>
+    <string name="artikel175">Belasan tahun berkiprah di dunia Arung Jeram dan Outbond, dipimpin oleh seorang yang sekaligus assesor profesi dari BNSP ( Badan Nasional Sertifikasi Profesi ), Progo Rafting telah dipercaya melayani ratusan ribu pelanggan. Baik perusahaan, organisasi, family maupun perorangan, sekaligus mempopulerkan sungai Progo, sungai Elo dan Magelang sebagai destinasi wisata alam minat khusus di kancah nasional.</string>
+    <string name="artikel176">Lokasi nyaman dan strategis yang terintegrasi dengan berbagai fasilitas standard hotel bintang lima akan memudahkan Anda dan perusahaan anda mengemas acara berlibur yang mengesankan</string>
+    <string name="artikel177">Open this link :
+        \n\n
+https://progorafting.com/
+</string>
+    <string name="judul_ponggok">Umbul Ponggok </string>
+    <string name="artikel178">Umbul Ponggok Klaten memang unik nan berbeda. Tempat ini bisa kalian kunjungi di kala liburan. Terutama buat kalian yang mungkin kecewa karena Situ Cilembang di Hariang ternyata tidak bisa digunakan untuk berenang, atau merasa Labuan Cermin yang ada di Kalimantan terlalu jauh untuk kalian kunjungi.</string>
+    <string name="artikel179">Tentu saja, tempat wisata di Klaten yang satu ini tidak terlalu jauh jika dibandingkan dengan Labuan Cermin yang ada di Kalimantan. Untuk yang belum tahu, Umbul Ponggok Klaten ini dulu sebenarnya adalah sebuah sumber mata air alami yang berbentuk kolam.
+
+</string>
+    <string name="artikel180">Namun karena kian hari makin populer, sekarang ini wisata Umbul Ponggok yang ada di Klaten ini kemudian dikembangkan menjadi tempat wisata yang keren dan nyaman. Sehingga akhirnya sekarang menjadi lumayan terkenal di Klaten dan sekitarnya.
+
+</string>
+    <string name="artikel181">Umbul Ponggok Klaten memang bukan kolam renang biasa. Karena disini kalian akan merasakan sensasi berenang bareng ikan air tawar yang berwarna-warni yang memang sudah ada sejak lama di Umbul Ponggok. Kalau berenang di tempat wisata Klaten yang satu ini, kalian akan bisa merasakan sensasi menyelam bareng ikan air tawar.
+
+</string>
+    <string name="judul_sindoro">Wisata Alam Lembah Sindoro</string>
+    <string name="artikel182">Wisata Alam Lembah Sindoro Posong Temanggung – Lebih dikenal Wisata Alam Posong merupakan salah satu destinasi wisata alam recomended di Jawa Tengah. Berada di dataran tinggi Temanggung, tempat wisata ini menyajikan pemandangan alam yang begitu indah. Ditambah hawa sejuk khas pegunungan akan membuat wisatawan betah di sana.</string>
+    <string name="artikel183">Keindahan Wisata Alam Posong tak perlu diragukan lagi. Wisatawan akan menemukan view 7 gunung sekaligus jika cuaca cerah. Bahkan Sunrise sunset di tempat ini tak kalah dengan golden sunris sunset di Dieng. Banyak wisatawan yang rela datang pagi – pagi untuk mendapatan momen indah itu</string>
+    <string name="artikel184">Wisatawan juga akan di manjakan dengan berbagai fasilitas di Wisata Alam Lembah Sindoro Posong Temanggung ini. Selain itu harga tiket masuk Lembah Sindoro Posong yang terjangkau membuat semakin ramai tempat wisata ini. Namun Lokasi Alam Posong yang berada di ketinggian dengan rute yang sedikit menantang mewajibkan kendaraan wisatawan dalam kondisi prima</string>
+    <string name="artikel185">Open this link \n\n
+
+http://www.wisatakaka.com/tempat-berburu-foto-di-wisata-alam-lembah-sindoro-posong-temanggung/
+
+</string>
+    <string name="judul_angkut">Museum Angkut</string>
+    <string name="judul_rafting">Progo Rafting</string>
+    <string name="artikel186">Provinsi Banten terkenal akan  tokoh-tokoh Islam sejak dari jaman dulu. Dari tokoh-tokoh Islam inilah Masjid Agung Banten didirikan oleh Sultan Maulana Hasanuddin, dan juga Putra Sunan Gunung Jati sekitar pada tahun 1552-1570. Masjid Agung memiliki halaman yang sangat luas dengan taman yang dihiasi oleh pohon-pohon flamboyan.</string>
+    <string name="artikel187">Dalam buku sejarah seorang Sultan dari Banten yang bernama Sultan Maulana Hasanuddin yang merupakan sultan terkenal menyebarkan agama Islam di Banten, dan beliaulah yang mendirikan Mesjid Agung Banten Lama ini. Sampai dengan saat ini untuk hari-hari tertentu Masjid Agung Banten Lama masih banyak dikunjungi oleh banyak peziarah dari berbagai pelosok daerah, dari Banten sendiri, Jakarta, Bekasi, Bogor, Purwakarta, Sukabumi dan juga dari Lampung.</string>
+    <string name="artikel188">Open this link :
+        \n\n
+http://ulinulin.com/posts/wisata-religi-ke-masjid-agung-banten-lama-dan-sepenggal-cerita-legendanya
+</string>
+    <string name="artikel189">Wisata Pulau Cangkir di Kronjo Tangerang Banten merupakan tempat wisata yang harus anda kunjungi karena pesona keindahannya tidak ada duanya. Penduduk lokal daerah Tangerang juga sangat ramah tamah terhadap wisatawan lokal maupun wisatawan asing. Kota Tangerang juga terkenal akan Wisata Pulau Cangkir di Kronjo Tangerang Banten yang sangat menarik untuk dikunjungi. </string>
+    <string name="artikel190">Wisata Pulau Cangkir di Kronjo Tangerang Banten memiliki
+perairan untuk berenang di sekitar pulau yang bening dengan menyewa pelampung. Sebagai
+oleh-oleh, pengunjung dapat berbelanja tangkapan laut segar di TPI
+Kronjo yang memang berada di kawasan objek wisata. Anda juga tidak perlu
+khawatir bila lupa membawa bekal maknan dan minuman.</string>
+    <string name="artikel191">Di Pulau Cangkir
+terdapat banyak warung serta kios souvenir. Wisata ziarah di Pulau Cangkir Kronjo
+dapat dinikmati dengan membayar Rp 6000. Tarif tersebut sudah termasuk
+biaya masuk tempat pelelangan ikan. Bila membawa kendaraan sendiri,
+siapkan juga biaya parkir. Sepeda motor dikenai retribusi parkir sebesar
+Rp 3000.</string>
+    <string name="artikel192">Open This Link:
+
+    https://ihategreenjello.com/pesona-keindahan-wisata-pulau-cangkir/
+    </string>
+    <string name="artikel193">Apabila orang membicarakan pantai indah dan memiliki pasir putih di daerah Solo, kita akan merujuk ke barisan pantai yang ada di Gunung Kidul atau Pacitan Jawa Timur. Tapi masih ada orang yang tidak mengetahui keberadaan pantai di Wonogiri yang di mana memiliki barisan pantai yang tidak kalah indah dengan pantai-pantai lainnya. Salah satunya pantai Nampu ini.</string>
+    <string name="artikel194">Dia adalah pantai Nampu, bila mendengar namanya bisa dipastikan bahwa masih banyak orang tidak mengetahui pesona indah dari pantai yang berada di Wonogiri ini.
+</string>
+    <string name="artikel195">Buat anda yang menyukai kegiatan lintas alam pasti sangat suka dengan panorama alam Curug Gendang di Banten ini. Perjalanan yang berliku, menanjak dan menurun serta jurang-jurang curam justru menjadi pengalaman yang mengasyikkan.</string>
+    <string name="artikel196">Selain itu, selama perjalanan akan terlihat berbagai tanaman liar dan suara-suara binatang yang belum pernah anda dengar sebelumnya. Buat anda penggemar durian, terdapat cukup banyak pohon durian yang bisa anda jumpai. Ditambah dengan kesejukan udaranya, anda pasti suka berlama-lama di sana.
+    </string>
+    <string name="artikel197"> Anda yang gemar dengan fotografi, bisa melihat banyak spot menarik yang bisa menjadi objek anda. Salah satunya adalah lautan luas yang biru di satu sisi dan kaki Gunung Krakatau yang hijau di sisi lainnya akan bisa anda lihat dengan jelas dari jalan setapak yang menuju curug.</string>
+    <string name="artikel198">Setelah menempuh perjalanan yang sedikit berat namun menyenangkan ini, anda bisa teruskan petualangan anda dengan berendam dalam kolam mata air yang sejuk dan jernih. Tak hanya berenang dan berendam, anda juga bisa berkemah di area khusus yang memang difungsikan sebagai bumi perkemahan.
+</string>
+
+    <string name="title1b">RABEG BANTEN</string>
+    <string name="rabeg1">Bagi kalian pecinta makanan berkuah wajib mencoba dan mencicipi Rabeg Banten ini. Disajikan dengan penyajian yang unik  sekilas penampilan seperti semur kecap daging kambing tetapi Makanan khas Banten yang satu ini  tidak hanya menggunakan daging kambing ia memiliki bahan dasar yang khas yaitu; jeroan kambing (seperti babat, usus, paru, jantung dan ati).</string>
+    <string name="rabeg2">Rasa yang disajikan pun sangat mengugah selera, karena  Rabeg Banten ini kalian akan merasakan sensasi asam, pedas, dan manis dari Rabeg berbahan jeroan kambing ini. Rabeg Banten ini aman untuk dikonsumsi semua kalangan karena campuran bahan khasnya ini yaitu jeroan kambing yang digunakan baik untuk kesehatan. Cobain aja dulu, nagih nya kemudian!</string>
+
+    <string name="title2b">ANGEUN LADA</string>
+    <string name="angeun1">Angeun Lada atau dikenal dengan sayur pedas ini menu kuliner yang biasa ada saat perayaan-perayaan idul adha dan idul fitri. Tetapi sekarang makanan khas Banten ini  bisa ditemukan di berbagai warung makan. Angeun Lada ini memiliki bahan khusus di dalamnya, yaitu jeroan sapi/kambing.</string>
+    <string name="angeun2">Cita rasa yang disajikan dengan campuran daun walang ataupun dikenal dengan daun belalang, kebayangkan wanginya Angeun Lada ini bagaimana, walaupun begitu tetap tidak mengurangi aroma dan cita rasa gurih, pedas, manis dari angeun lada, cocok untuk dimakan bareng keluarga tercinta.</string>
+
+    <string name="title3b">GEREM ASEM</string>
+    <string name="gerem1">Gerem Asem ini salah satu masakan khas Banten yang populer. Sekilas bentuknya seperti semur ayam kecap tetapi tidak seringkas dan sedangkal yang kalian lihat. Gerem Asem ini berbahan dasar daging ayam ataupun bebek dengan polahan rasa pedas yang luar biasa pedas yang membuat kalian merem melek memakan makanan khas Banten ini .</string>
+    <string name="gerem2">Makanan Gerem Asem akan memanjakan lidah kalian  dengan rasa gurih daging ayam ataupun bebek, rasa pedas dan super enak  dari kuah sekaligus ayam yang telah dibumbui.</string>
+
+    <string name="title4b">NASI SUMSUM</string>
+    <string name="sumsum1">Walaupun namanya nasi sumsum tapi penyajiannya bukanlah nasi yang berbahan dasar tepung beras seperti bubur sumsum pada umumnya. Nasi sumsum ini nasi yang terdapat daging sumsum dan kemudian dibakar menggunakan daun pisang dengan tujuan menambah cita rasa, aroma masakan serta dipercaya bisa menambah vitalitas kesehatan.</string>
+    <string name="sumsum2">Nasi ini bisa kalian nikmati dengan langsung santap tanpa ditemani lauk-lauk lainnya karna adanya daging sumsum itu yang membuat nasi ini lembut dan kenyal dilidah. Tertarik mencobanya ?</string>
+
+    <string name="title5b">PECAK BENDENG</string>
+    <string name="pecak1">Saat lelah melanda sehabis pulang kerja, pulang sekolah, pulang kuliah, pulang berjualan ataupun pulang berjalan-jalan perut sudah tidak bisa diajak kompromi, kalian wajib coba Pecak Bandeng dan dijamin tidak akan menyesal dengan rasa yang disajikan ini.</string>
+    <string name="pecak2">Dengan berbahan dasar ikan bandeng ini tetapi dengan cara olahan yang berbeda. Pertama-tama ikan bandeng ini digoreng sekering mungkin dengan tujuan cita rasa gurihnya ikan Bandeng terasa di lidah. Jadi saat kalian mencicipinya dengan olahan bumbu di atasnya.</string>
+
+    <string name="title6b">KUE GIPANG</string>
+    <string name="lemang1">Kue gipang ini bentuknya seperti kue lapis tetapi dengan bahan yang berbeda yaitu dari beras ketan putih dan ketan merah. Walaupun kue gipang ini mulai jarang ditemui di Banten dikarenakan mulai langka tetapi tetap masih kalian bisa temuin kok di Banten.</string>
+    <string name="lemang2">Pengolahan yang berbeda dari kue beras ketan pada umumnya membuat kue gipang ini istimewa dan khas karena setelah dikukus nantinya kue Gipang ini dijemur berhari-hari. Setelah dijemur barulah kue Gipang digoreng dan dicampur dengan air gula yang membuat cita rasanya menjadi gurih, manis dan renyah.</string>
+
+    <string name="title7b">LEPET BANTEN</string>
+    <string name="lepet1">Lepet ialah makanan ringan khas Banten yang berbahan dasar beras ketan. Selain rasanya yang enak, lembut dan kenyal di lidah lepet ini disajikan dengan kemasan yang cantik. Lilitan dari daun janur yang digunakan sebagai pembungkus lepet ini dibuat sangat rapi. Mengapa menggunakan daun janur, tidak daun pisang ataupun plastik?</string>
+    <string name="lepet2">Tentu cita rasa yang disajikan jelas berbeda apabila menggunakan daun pisang apalagi plastik. Penggunaan daun janur ini menjadi pembungkus lepet juga punya alasan tersendiri, yaitu menghindari lengketnya tangan ketika membuat lepet dan memakannya. </string>
+
+    <string name="title8b">KUE BALOK MENES</string>
+    <string name="menes1">Mendengar kata balok, pasti yang terlintas dipikiran kalian ialah kotak? Ya benar sekali. Jajanan khas Banten ini memang berbentuk kotak tetapi pada awalnya tidak kotak. Kue balok menes khas Banten ini awalnya berbahan dasar singkong/ubi yang direbus hingga lembut untuk kemudian dihancurkan sampai halus, setelah halus barulah ubi tadi dibentuk menyerupai balok.</string>
+    <string name="menes2">Yang membuat kue balok menes ini menjadi sangat lezat bukanlah dari ubi itu saja tetapi kue balok menes ini disajikan dengan campuran minyak kelapa dan diisi dengan serundeng. Tentunya makin lezat bukan ?</string>
+
+    <string name="title9b">KETAN BINTUL</string>
+    <string name="ketan1">Siapa yang tak kenal dengan Ketan Bintul jajanan khas Banten ini. Ketan bintul ini sama halnya dengan ketan pada umumnya yang menggunakan tepung beras tetapi ada yang unik nih dari Ketan bintul. Ketan bintul ini disajikan dengan mencampurkan serundeng (ampas kelapa yang telah disangrai sehingga bewarna kecoklatan). Biasanya juga ketan bintul ini bisa disandingkan dengan kuah rendang daging sapi dan kerbau.</string>
+    <string name="ketan2">Ketan Bintul ini jajanan jaman dulu yang memang memiliki cita rasa lezat, lembut, kenyal, dan super enak. Hanya kalau kalian mengunjungi kota Banten dihari-hari biasa akan sulit untuk ditemui jajanan khas ini, karena biasanya mereka ada pada saat bulan suci ramadhan.</string>
+
+    <string name="title10b">KUE BONTOT</string>
+    <string name="bontot1">Bontot merupakan jajanan khas terkenal yang ada di Banten. Dinamakan bontot dikarenakan bentuknya yang kecil dan imut-imut. Sekilas menyerupai pempek Palembang, tetapi tentu berbeda dengan si Bontot ini. Bontot berbahan dasar tepung kanji dengan olahan ikan payus, walaupun ikan payus ini kurang diminati karena durinya tetapi tenang jika kalian ngemil si bontot ini kalian tidak akan menemukan duri dari ikan payus.</string>
+    <string name="bontot2">Untuk yang doyan ngemil tapi takut gendut kalian bisa cobain bontot, cemilan sehat ini bisa menemani kalian masa diet ataupun masa pertumbuhan. Cobain ya.</string>
+
+    <string name="title1jk">KERAK TELOR</string>
+    <string name="kerak1">Kerak telor merupakan makanan khas Betawi yang sangat terkenal terutama pada saat acara Pekan Raya Jakarta. Kerak telor hampir mirip dengan martabak, perbedaanya terletak pada isi dan cara memuatnya. Isi kerak telor adalah ketan dan ubi. Cara memasak kerak telor, yaitu dengan dipanaskan di atas tungku arang.</string>
+
+    <string name="title2jk">NASI UDUK</string>
+    <string name="nasiuduk">Hampir semua masyaraka Jakarta (sekalipun bukan orang Betawi) mengenal nasi uduk. Nasi uduk sangat familiar sebagai sarapan di Jakarta. Mirip dengan nasi liwet, nasi uduk yang terbuat dari beras putih dimasak bumbu-bumbu. Bumbu-bumbu nasi uduk tersebut seperti garam, santan, daun serai, daun salam, dan daun jeruk. Rasa nasi uduk sangat lezat dan gurih. Nasi uduk biasa dimakan dengan telur dadar yang diiris, semur jengkol, ayam goreng, empal, kentang balado, dan sambal kacang.</string>
+
+    <string name="title3jk">NASI ULAM</string>
+    <string name="nasiulam">Nasi ulam merupakan makanan khas Betawi yang juga mendapat pengaruh dari budaya kuliner Cina. Nasi ulam biasanya memakai nasi pera yang disiram dengan semur kentang/ semur tahu/ semur telur. Nasi ulam juga ditambah dengan cumi asin goreng, bihun goreng, telur dadar iris, dan perkedel kentang. Nasi ulam bertambah nikmat dengan tambahan daun kemangi, sambal, bawang goreng, dan taburan kacang tanah tumbuk.</string>
+
+    <string name="title4jk">LONTONG SAYUR</string>
+    <string name="lontongsayur">Ketupat sayur merupakan makanan khas Betawi yang biasa dijadikan sebagai menu sarapan. Ketupat sayur terbuat dari irisan ketupat/ lontong dengan kuah santan yang gurih. Taburan ketupat sayur berupa bawang goreng, kacang kedelai, dan kerupuk/emping</string>
+
+    <string name="title5jk">GADO - GADO</string>
+    <string name="gado">Gado-gado merupakan salah satu kuliner kebanggan Indonesia. Orang asing menyebut gado-gado dengan sebutan ‘seladanya orang Indonesia’. Gado-gado berisi lontong/ ketupat, sayuran, kerupuk dan bawang goreng. Gado-gado bisa disantap pada saat sarapan, makan siang, ataupun makan malam. Di Jakarta, banyak sekali penjual gado-gado.</string>
+
+    <string name="title6jk">KETOPRAK</string>
+    <string name="ketoprak">Ketoprak terbuat dari ketupat atau lontong yang berisi bihun, toge, dan tahu. Ketoprak Betawi dengan rasa yang lezat ini disiram dan diaduk dengan sambal kacang. Ketoprak juga ditaburi dengan kerupuk. Makanan khas Betawi ini termasuk makanan berat yang agak ‘ringan’.</string>
+
+    <string name="title7jk">SEMUR JENGKOL</string>
+    <string name="semurjengkol">Semur jengkol merupakan satu-satunya makanan khas betawi yang tak terbantahkan lagi keasliannya. Masakan khas betawi yang lain mungkin ada kembarannya di daerah lain tetapi semur jengkol hanya ada di daerah Betawi saja. Orang Betawi mampu membuat jengkol menjadi hidangan semur yang lezat. Untuk menghilangkan baunya, jengkol biasa di rendam di air kapur atau air dari rebusan tangkai padi. Dahulu, daerah Pondok Gede dan Lubang Buaya merupakan daerah di Jakarta yang banyak terdapat pohon jengkol.</string>
+
+    <string name="title8jk">LAKSA BETAWI</string>
+    <string name="laksabetawi">Laksa berasal dari daerah Cibinong yang kemudian merambah ke Jakarta dengan sebutan Laksa Betawi. Pengusaha Laksa Betawi biasanya orang Cina Betawi. Laksa merupakan jenis makanan sepinggan yang berkuah. Laksa berisi bihun, telur, perkedel, daun kemangi, dan daun kucai. Kuliner yang mendapat pengaruh dari Cina ini memiliki citarasa yang gurih dan manis.</string>
+
+    <string name="title9jk">PINDANG BANDENG</string>
+    <string name="pindangbandeng">Pindang bandeng hampir menyerupai semur tetapi ada penambahan belimbing wuluh. Rasa pindang bandeng sangat lezat dan segar. Sama dengan nasi uduk, biasanya pindang bandeng disantap saat sarapan dan dimasak pada sore hari sebelumnya.</string>
+
+    <string name="title10jk">SOTO TANGKAR</string>
+    <string name="sototangkar">Makanan khas yang satu ini lahir pada masa penjajahan Belanda. Pada saat itu, orang Betawi hanya mampu membeli iga sapi yang sedikit dagingnya (tangkar). Kemudian, orang Betawi menyulapnya menjadi soto yang enak. Kini, soto tangkar ditambah dengan daging dan jeroan. Soto tangkar berkuah santan tetapi rasanya tidak terlalu ‘berat’.</string>
+
+    <string name="title1jb">NASI TUTUG ONCOM</string>
+    <string name="tutugoncom">Nasi tutug oncom merupakan salah satu makanan khas Sunda yang sudah tersohor hingga ke seluruh Nusantara. Nasi tutug oncom ini adalah menu makanan yang terdiri dari nasi dan oncom yang ditumbuk bersamaan. Nasi tutug oncom biasa disajikan dalam keadaan hangat, sehingga lezatnya lebih terasa. Nasi tutug oncom ini memiliki perpaduan rasa yang unik, yakni asin dan gurih dari oncom serta pulen dan manisnya nasi menambah nikmatnya sajian khas Tatar Sunda ini. Nasi tutug oncom berasal dari Tasikmalaya, namun hidangan ini dapat ditemukan di hampir seluruh wilayah di Jawa Barat.</string>
+
+    <string name="title2jb">OPAK</string>
+    <string name="opak">Opak adalah makanan khas Jawa Barat yang mudah ditemukan dimana-mana. Opak sendiri memiliki beberapa varian seperti opak singkong dan opak ketan. Opak singkong merupakan opak yang berbahan dasar singkong yang diparut, kemudian dicampur dengan berbagai macam bumbu. Sementara opak ketan sendiri adalah opak yang menggunakan beras ketan sebagai bahan utamanya.</string>
+
+    <string name="title3jb">SURABI</string>
+    <string name="surabi">Surabi juga adalah salah satu makanan khas Jawa Barat yang terkenal akan kelezatannya. Surabi dibagi menjadi dua varian, yakni manis dan asin. Surabi asin tersedia dalam berbagai pilihan rasa. Ada surabi rasa oncom hingga telur. Namun kini, para pemilik kedai atau warung surabi telah berinovasi dengan menambahkan berbagai macam topping pada sajian tradisional ini. Mulai dari menambahkan sosis sampai keju. Ada juga yang menggunakan keju mozarella. Sementara untuk surabi manis, biasanya disiram dengan gula merah yang telah dicairkan. Namun kini, terdapat surabi manis dengan berbagai pilihan rasa dan topping. Mulai dari surabi durian, surabi cokelat susu hingga surabi dengan meises dan juga keju.</string>
+
+    <string name="title4jb">MANISAN PALA</string>
+    <string name="manisanpala">Manisan pala dibuat dengan cara mengupas buah terlebih dulu, kemudian buah pala dipotong sesuai selera, lalu dimasak dengan cara direbus dan kemudian disiram dengan menggunakan air garam. Daging buah pala yang telah direbus dan disiram air garam kemudian direndam dengan air kapur agar teksturnya tetap terjaga. Nah, untuk membuat manisan pala basah, pala yang sudah direndam air kapur tadi dicampur dengan larutan gula pasir mendidih. Lalu kemudian ditiriskan. Sementara untuk membuat manisan buah pala kering, menurut tempo caranya hanya dengan menjemur pala basah tadi di bawah sinar matahari sampai mengering sempurna. Manisan buah pala yang memiliki cita rasa manis dan asam namun tetap segar ini bisa ditemui di Kabupaten Cianjur, Kota Bogor, dan beberapa daerah lainnya di Jawa Barat.</string>
+
+    <string name="title5jb">MOCHI</string>
+    <string name="mochi">Selanjutnya, ada kue mochi yang merupakan kudapan asal Jepang, namun menjadi salah satu makanan khas di Jawa Barat juga. Khususnya kawasan Sukabumi dan Cianjur. Menurut Wikipedia, mochi adalah makanan manis berbentuk bulat yang terbuat dari beras ketan yang ditumbuk, sampai adonan menjadi lengket. Di Indonesia, khususnya Jawa Barat, kudapan ini dikemas dengan menggunakan keranjang bambu dan banyak dijual oleh pedagang asongan maupun toko oleh-oleh. Mochi di sini biasanya berisi kacang dan diberi taburan tepung sagu.</string>
+
+    <string name="title6jb">LOTEK</string>
+    <string name="lotek">Lotek ini adalah makanan khas Jawa Barat yang tampilannya sangat mirip dengan gado-gado. Makanan ini berisi beberapa jenis sayuran yang direbus dan disiram dengan bumbu kacang. Bedanya, bumbu kacang untuk lotek ini kadang-kadang menggunakan terasi, sedangkan gado-gado tidak memakai terasi. Kadang-kadang penjual lotek juga menambahkan bakwan, ketupat, telur, dan juga kerupuk. </string>
+
+    <string name="title7jb">KAREDOK</string>
+    <string name="karedok">Bedanya dengan lotek, sayur-sayuran yang dipakai untuk membuat karedok tidak direbus alias mentah. Jadi, karedok ini lebih pantas disebut sebagai salad tradisional. Sayuran pelengkap karedok antara lain adalah tauge, mentimun, kacang panjang, kol, terong, dan daun kemangi. Bumbu kacang yang melengkapi karedok ini lebih mirip dengan bumbu pecel karena bahan-bahanya menggunakan cabe merah, bawang putih, kencur, air asam, gula merah, garam, kacang tanah, dan terasi. Anda bisa menyantap karedok secara langsung atau dengan sepiring nasi putih hangat</string>
+
+    <string name="title8jb">PEUYEUM</string>
+    <string name="peuyeum">Makanan dari Jawa Barat bukan hanya makanan berat saja, lho. Ada juga cemilan manis dari Jawa Barat yang sangat terkenal, yakni peuyeum. Ini merupakan singkong yang difermentasi sehingga sering juga dinamakan sebagai tape singkong. Singkong yang digunakan akan dikukus lalu ditaburi dengan ragi untuk merangsang pertumbuhan jamur pada singkong. Peuyeum bisa Anda temukan dengan mudah ketika berjalan-jalan di Bandung dan daerah lain di Jawa Barat. Peuyeum bisa menjadi makanan pengganjal perut yang bikin nagih banget.</string>
+
+    <string name="title9jb">CIRENG</string>
+    <string name="cireng">Makanan khas Jawa Barat yang satu ini memang benar-benar terkenal. Apalagi sampai saat ada begitu banyak pedagang cireng di luar Jawa Barat. Cireng sendiri sebenarnya adalah cemilan yang murah meriah. Bahan dasar untuk membuat cireng adalah tepung tapioka, tepung terigu, bawang putih, garam, dan merica bubuk. Jika dulu cireng hanya dimakan dengan sambal atau bumbu kacang, kini cireng sudah tersedia dalam berbagai rasa. Ada cireng rasa ayam, sapi, sosis, keju, BBQ, dan juga teriyaki. Wah, kreatif sekali ya!</string>
+
+    <string name="title10jb">COMBRO dan MISRO</string>
+    <string name="combromisro">Tak kalah enaknya dengan makanan lain. Jika Anda penikmat kuliner khas Jawa Barat, cobalah cemilan Combro dan Misro. Ini merupakan cemilan dengan menggunakan bahan dasar singkong yang diparut, kemudian dibentuk melonjong lalu diberi isian oncom atau gula merah. Combro sendiri singkatan dari oncom di jero sedangkan Misro adalah amis di jero. Bagi pecinta cita rasa yang pedas, maka cobalah Combro, isian oncom yang nikmat, pedas, dan gurih. Namun, jika Anda lebih menyukai rasa manis, Misro bisa menjadi pilihan cemilan yang membuat Anda ngiler!</string>
+
+    <string name="title1jtg">TAHU PETIS</string>
+    <string name="tahupetis">Tahu petis merupakan salah satu jenis makanan dari olahan tahu yang sering dijadikan cemilan dan juga sering dijadikan sebagai lauk. Bahan yang digunakan untuk pembuatan tahu petis khas Jawa Tengah ialah tahu dan saus hitam atau dikenal dengan petis. Tahukah anda, jika petis ini biasanya terbuat dari udang yang dimasak secara terus menerus hingga menjadi kental ataupun dari kuah rebusan ikan.</string>
+
+    <string name="title2jtg">TEMPE MENDOAN</string>
+    <string name="mendoan1">Pada dasarnya tempe mendoan ini hampir sama dengan tempe goreng lainnya yang dibaluri dengan tepung. Hanya saja yang membut beda antara tempe mendoan dengan tempe biasanya ialah terletak pada namanya yakni mendoan.</string>
+    <string name="mendoan2">Mendoan merupakan sebuah makanan yang dimasak dengan menggunakan minyak panas yang cukup banyak dan juga cepat sehingga membuat tempenya tidak telalu matang. Meskipun dalam proses pengorengannya tempe ini tidak terlalu matang, namun anda tidak perlu khawatir terkait rasanya.</string>
+
+    <string name="title3jtg">NASI GANDUL</string>
+    <string name="gandul1">Nasi gandul merupakan salah satu jenis makanan yang sering disebut dengan nasi uduk karena cara penyajiannya menggunakan daun pisang. Nasi gandul ini juga mempunyai rasa yang sangat gurih dan enak untuk disantap bersama saat sarapan.</string>
+    <string name="gandul2">Untuk pembuatan nasi gandul ini juga ditambahkan daun pandan sehingga membuat aroma nasi ini menjadi lebih kuat dan sangat menggungah selera. Biasanya nasi gandul ini disajikan dengan tambahan lauk yang berupa daging sapi yang sudah diolah dengan sedemikian rupa sehingga dapat memberikan rasa yang sangat lezat dan nikmat.</string>
+
+    <string name="title4jtg">BREKECEK</string>
+    <string name="brekecek1">Brekecek merupakan salah satu makanan khas Jawa Tengah yang tidak boleh anda lewatkan apabila berkunjung ke Jawa Tengah. Brekecek terbuat dari bahan dasar ikan pathak ataupun ikan jahan. Selain itu, ada juga yang membuat brekecek dari kepala ikan laut yang bernama menthok maupun basur.</string>
+    <string name="brekecek2">Brekecek ini sebenarnya terdiri dari dua suku kata yakni brek yang artinya diletakkan ataupun dijatuhkan dan kecek yang artinya dicampurkan ataupun dicekek dengan menggunakan bumbu. Perlu anda ketahui, jika brekecek khas Jawa Barat ini sudah cukup populer dikalangan masyarakat lokal maupun wisatawan asing. Karena brekecek yang satu ini memiliki rasa yang sangat lezat dan jika dicicipi dapat membuat anda ketagihan.</string>
+
+    <string name="title5jtg">NASI GROMBYANG</string>
+    <string name="grombyang1">Penamaan nasi grombyang ini diambil dari cara penyajiannya yakni dengan kuah yang lebih banyak dibandingkan dengan isinya, sehingga membuat nasi ini terlihat grombyang-grombyang ataupun bergoyang.</string>
+    <string name="grombyang2">Nasi grombyang ini terbuat dari daging kerbau, nasi sebagai bahan utamanya, daging kerbau serta kuah yang sudah diracik dari olahan bumbu yang sangat bervariasi. Sehingga dapat memberikan rasa yang sangat lezat dan enak saat dicicipi.</string>
+    <string name="grombyang3">Nasi ini biasanya disajikan dengan menggunakan kuali yang memiliki ukuran cukup besar dan juga tempat nasi yang ditutupi dengan menggunakan kain merah.</string>
+
+    <string name="title6jtg">GARANG ASEM</string>
+    <string name="garamasem1">Garang asem merupakan makanan hasil olahan dari ayam yang dimasak bersamaan dengan santan. Ayam yang dimasak ini terlebih dahulu dibungkung dengan menggunakan daun pisang setelahnya baru dimasak dengan santan.</string>
+    <string name="garamasem2">Garang asem ini mempunyai rasa yang cukup pedas dan juga asam sehingga sangat lezat untuk dinikmati. Perlu diketahui, biasanya garang asem ini disajikan dengan nasi dan juga dilengkapi dengan lauk lainnya seperti perkedel, tempe goreng ataupun ayam asam manis.</string>
+
+    <string name="title7jtg">GETHUK GORENG</string>
+    <string name="getukgoreng1">Jika getuk khas Jawa Tengah dalam proses pengolahanya harus melalu tahap pengorengan. Hal ini jugalah yang membuat getuk khas Jawa Tengah disebut sebagai getuk goreng yang mempunyai rasa yang manis dan gurih.</string>
+    <string name="getukgoreng2">Bahan yang digunakan untuk pembuatan getuk goreng ialah singkong dan gula merah ataupun gula jawa. Getuk goreng ini cukup banyak diincar dan diminati oleh wisatawan lokal maupun asing karena getuk goreng ini menawarkan rasa yang sangat lezat, gurih dan kriuk.</string>
+
+    <string name="title8jtg">NASI LIWET</string>
+    <string name="nasiliwet1">Nasi liwet merupakan sebuah makanan khas Jawa Tengah yang sangat populer dikalangan wisatawan asing dan lokal. Nasi liwet ini biasanya disajikan dengan menggunakan potongan ayam dan terkadang juga digunakan labu siam.</string>
+    <string name="nasiliwet2">Sebenarnya memasak nasi liwet ini hampir sama dengan nasi uduk pada umumnya yakni dengan menggunakan santan. Hanya jasa yang membuatnya beda terletak pada rasanya, karena rasa dari nasi liwet ini dijamin sangat lezat dan juga enak.</string>
+
+    <string name="title9jtg">MANGUT BEONG</string>
+    <string name="mautbeong1">Mangut beong merupakan makanan khas Jawa Tengah yang terbuat dari ikan beong. Sebagian dari kita pasti masih asing dengan yang namanya ikan beong. Ikan beong adalah salah satu jenis ikan yang sekilas hampir menyerupai ikan lele, namun sebenarnya ikan beong ini bukan ikan lele.</string>
+    <string name="mautbeong2">Ikan beong sendiri ialah ikan khas yang ada di sungai Progo yang mempunyai danging yang cukup padat dan juga lembut. Ketika ikan beong ini dimasak maka dapat memberikan rasa yang sangat lezat dengan daging yang cukup lembut dan sangat mudah untuk dikunyah.</string>
+
+    <string name="title10jtg">MIE ONGKLOK</string>
+    <string name="mieongklok1">Ketika anda jalan-jalan ke Jawa Tengah jangan lupa mencicipi mie ongklok. Karena mie ongklong ini cukup terkenal dan populer dikalangan wisawatan lokal dan mancanegara karena kelezatannya. Mie ongklok sendiri merupakan sejenis mie rebus yang diracik dengan berbagai bahan tambahan seperti potongan daun kucai serta kol.</string>
+    <string name="mieongklok2">Untuk kuah mie ongklok ini juga menggunakan kanji sehingga membuat kuah mie ini terlihat sangat kental dibandingkan kuah mie pada umumnya. Mie ongklok ini juga sangat lezat apabila dikonsumsi dengan tambahan tempe kemul, sate sapi ataupun keripik tahu.</string>
+    <string name="mieongklok3">Tahukan anda kenapa mie ini diberi nama mie ongkok? Jika belum mengetahuinya maka anda patut mencari tahu. Sebenarnya mie ini diberi nama mie ongklok karena dalam pembuatannya memakai ongklok. Ongklok adalah sejenis keranjang kecil yang terbuat dari anyaman bambu. Ongklok berguna untuk merebus mie di dalam kuahnya.</string>
+
+    <string name="title1jtm">SOTO LAMONGAN</string>
+    <string name="sotolamongan1">Soto Lamongan menjadi salah satu makanan khas Jawa Timur yang saat sangat mudah ditemukan di berbagai daerah lainnya. Namun, terdapat perbedaan antara soto Lamongan dengan soto lainnya, yakni koya, tahukah Anda apa itu koya? Koya merupakan sejenis bubuk gurih dengan bahan dasar pembuatannya berasal dari kerupuk udang dan bawang putih.</string>
+    <string name="sotolamongan2">Tambahan koya membuat cita rasa soto Lamongan menjadi semakin gurih dan membuat siapa yang menikmatinya akan semakin ketagihan.</string>
+
+    <string name="title2jtm">RUJAK CINGUR</string>
+    <string name="rujakcingur1">Nah, jika kuliner Rujak Cingur pastinya sebagian besar dari kita pernah mendengar tentangnya bukan? Berbeda dari rujak biasanya yang berisikan irisan buah-buahan dan sambel, Rujak Cingur menjadi kesukaan para pecinta kuliner karena berisikan rujak mulut sapi, cingur, sayuran dan berbagai bahan pelengkap lainnya.</string>
+    <string name="rujakcingur2">Tahukah Anda, terdapat satu bumbu yang membuat rujak cingur semakin digemari, yakni perpaduan antara petis, cabe, gula merah plus kacang tanah yang telah digoreng.</string>
+    <string name="rujakcingur3">Bumbu tersebut kemudian akan diulek dan ditambahkan sedikit air guna diencerkan. Dijamin, rasa semakin mantap dan nikmat, Anda pasti akan ketagihan dan ingin mencobanya lagi dan lagi.</string>
+
+    <string name="title3jtm">RAWON</string>
+    <string name="rawon1">Wisata kuliner khas Jawa Timur berikutnya yang wajib Anda coba ialah Rawon, sebagian dari kita pasti telah sering mendengarnya. Rawon merupakan sebuah makanan dengan kuah yang berwarna coklat kehitam-hitaman.</string>
+    <string name="rawon2">Karena warna kuah inilah makanan yang satu ini disebut dengan nama Rawon. Tahukah Anda? Warna kuah rawon yang kehitam-hitaman ini didapatkan karean sebuah bahan rahasia yang bernama kluwek. Di Jawa Timur, salah satu lokasi terkenal yang menjajal Rawon ialah di daerah Pasuruan.</string>
+    <string name="rawon3">Akan semakin mantap jika menyantap Rawon dnegan nasih plus kurupuk dan bawang goreng. Biasanya, kuliner rawon akan diisi tauge, telur,sayuran hijau dan daging sapi. Wah, akan semakin menggugah selera pastinya.</string>
+
+    <string name="title4jtm">LONTONG BALAP</string>
+    <string name="lontongbalap1">Namanya saja sudah sangat unik, namun jangan berpikir jika kuliner lontong yang satu ini digunakan untuk ajang perlombaan, kompetisi atau sejenisnya ya. Lontong Balap merupakan salah satu kuliner khas Jawa Timur dan Anda bisa menemukannya dengan mudah di sekitaran Jalanan Jawa Timur.</string>
+    <string name="lontongbalap2">Lontong Balap sendiri merupakan perpaduan dari berbagai bahan, mulai dari lontong, tahu goreng, tauge, kecap, lenthok, sambal, bawang goreng dan beragam bumbu pelengkap lainnya. Semakin sempurna dengan tambahan siraman kuah segar yang membuat citarasanya semakin nikmat.</string>
+
+    <string name="title5jtm">PECEL</string>
+    <string name="pecel1">Pecel merupakan salah satu kuliner yang sangat mudah ditemukan di berbagai kota di Indonesia, termasuk di Jawa Timur dengan cita rasa yang tidak diragukan lagi. Makanan khas Jawa Timur ini hampur digemari semua kalangan, dari muda hingga tua, baik pria maupun wanita memiliki selera yangs ama dalam menilai sebuah masakan terbaik.</string>
+    <string name="pecel2">Tahukah Anda? Saking banyak penggemarnya, di Jawa Timur pecel dibuat dengan beberapa jenis tersendiri dan disesuaikan menurut daerahnya masing-masing, mulai dari pecel khas Jember, khas Malang dan lainnya.</string>
+
+    <string name="title6jtm">TAHU TEK</string>
+    <string name="tahutek1">Kuliner khas Jawa Timur yang wajib Anda coba dengan cita rasa yang dijamin bikin nagih ialah Tahu Tek. Seperti namanya, jelas saja kuliner yang satu terbuat dari bahan utama berupa tahu.</string>
+    <string name="tahutek2">Tahu Tek sendiri merupakan kuliner yang berisi tahu goreng setengah matang yang selanjutnya dipadukan dengan bahan lainnya, seperti tauge, kentang goreng, potongan lontong hingga timun.</string>
+    <string name="tahutek3">Selanjutnya, bahan pembutan Tahu Tek akan disempurnakan dengan menyiram bumbu kacang tanah goreng plus petis yang sebelumnya telah dihaluskan.</string>
+
+    <string name="title7jtm">RUJAK SOTO</string>
+    <string name="rujaksoto1">Rujak soto menjadi menu khas Jawa Timur selanjutnya yang tidak boleh dilewatkan saat Anda berkunjung kesana. Menu yang satu ini bisa ditemukan di Banyuwangi dengan soto yang berbeda dari yang biasanya pastinya Anda akan dibuat ketagihan.</string>
+    <string name="rujaksoto2">Rujak soto khas Banyuwangi Jawa Timur di buat dari dua makanan yang berbeda yang digabungkan jadi satu, yaitu rujak dan soto. Ya, rujak akan digabungkan dengan soto kuning, tepatnya rujak sayur dan soto babat.</string>
+
+    <string name="title8jtm">LODHO AYAM</string>
+    <string name="lodhoayam1">Menu khas Jawa Timur selanjutnya ialah Lodho Ayam yang telah sangat populer dengan kelezatannya di seluruh Jawa. Lodho ayam menjadi menu terbaik khasi Tulungagung, Jawa Timur. Bahkan para pengunjung bisa menemukan menu yang satu ini dengan mudah saat menginjakkan kaki ke Tulungagung.</string>
+    <string name="lodhoayam2">Kuliner ini terbuat dari bahan utama ayam yang dimasak dengan resep dan bumbu turun temurun dengan cita rasa yang telah mengudara kelezatannya. Lodho ayam bahkan juga terdiri dari dua jenis masakan, terdapat lodho ayam dengan kuah encer dan lodho ayam kuah kental.</string>
+
+    <string name="title9jtm">GETHUK PISANG</string>
+    <string name="gethukpisang1">Tidak hanya menu makanan pokok, Anda juga bisa menemukan menu khas Jawa Timur untuk sekedar jajanan dan cemilan biasanya. Ya, cobalah gethuk pisang dengan citarasa yang sangat berbeda dengan gethuk singkong.</string>
+    <string name="gethukpisang2">Perbedaan utamanya tentu saja berasal dari bahan bakunya, dimana yang bisa diolah menjadi gethuk pisang ialah pisang raja nangka dengan rasa yang manis, lembut, dan rasa asam yang sangat khas. Tekstur pisang raja nangka sangat lembut sehingga mambuat banyak orang tergugah menjadikannya cemilan nikmat saat waktu senggang.</string>
+
+    <string name="title10jtm">BREM</string>
+    <string name="brem1">Terakhir ada brem, yakni kuliner terbaik yang bisa ditemukan dengan mudah di kawasan kota Madiun, Jatim. Tahukah Anda? Brem merupakan salah satu jajanan yang biasa dijadikan oleh-oleh khas kota ini. Brem sendiri di buat dengan menggunakan sari ketan yang dimasak dan kemudian dikeringkan.</string>
+    <string name="brem2">Sari kentan yang digunakan juga telah melewati proses fermentasi terlebih dahulu selama satu malam sehingga akan membuat cita rasanya semakin nikmat dan juara. Belum lengkap rasanya jika Anda mengunjungi Jawa Timur tanpa membawa pulang kuliner oleh-oleh yang satu ini.</string>
+
+    <string name="title1jg">GUDEG</string>
+    <string name="gudeg1">Makanan yang berbahan dasar nangka muda ini adalah ikon kuliner khas Jogja. Rasa asli gudeg sebenarnya manis, hal ini yang kadang tidak cocok di lidah orang luar Jawa. Namun cita rasa manisnya gudeg lebih nikmat jika dimakan dengan nasi pulen, sambal goreng krecek, dan gurihnya kuah opor ayam serta tambahan telur, tahu, atau tempe bacem.</string>
+    <string name="gudeg2">Ada dua macam jenis gudeg, yaitu gudeg basah dan gudeg kering. Perbedaannya terletak pada kekentalan santan gudeg, santan gudeg kering lebih kental dibandingkan santan gudeg basah.</string>
+
+    <string name="title2jg">BAKMI JAWA GORENG</string>
+    <string name="bakmijawa">Pada dasarnya, bakmi adalah makanan dengan sajian mi. Bakmi disajikan dengan campuran daging atau ayam dan sayur-mayur seperti kol. Bakmi bisa dimakan dengan kuah atau tanpa kuah alias bakmi goreng. Dahulunya, bakmi dibawa oleh pedagang-pedagang Tiongkok ke Indonesia, kemudian bakmi beradaptasi dengan rempah-rempah Indonesia.</string>
+
+    <string name="title3jg">SATE KLATHAK</string>
+    <string name="sateklathak">Sate klathak adalah sate kambing yang hanya dibumbui garam serta dibakar dengan menggunakan jeruji besi sepeda di atas bara arang. Tusukan jeruji besi sepeda inilah yang membuat sate klathak menjadi sate yang unik dan khas. Jeruji besi berfungsi untuk menghantarkan panas agar daging kambing matang dengan merata. Sate klathak dimakan dengan sajian kuah gule.</string>
+
+    <string name="title4jg">SEGO KUCING</string>
+    <string name="segokucing">Sego kucing, atau nasi kucing, adalah nasi yang dibungkus di dalam daun pisang dengan campuran ikan teri, sambal, atau tempe di bagian atasnya. Disebut dengan sego kucing karena nasi ini dibuat dalam porsi kecil, hanya beberapa kali suapan, seperti porsinya kucing. Sego kucing adalah menu utama di angkringan.</string>
+
+    <string name="title5jg">KOPI JOSS</string>
+    <string name="kopijoss">Kopi joss adalah kopi hitam yang diseduh dengan air mendidih, dicampur gula, dan ditambah arang panas. Ketika arang dicelupkan ke dalam kopi, akan terdengar suara yang berbunyi “josss”. Kopi joss dipercaya menghilangkan sakit perut seperti kembung dan mules.</string>
+
+    <string name="title6jg">OSENG - OSENG MERCON</string>
+    <string name="osengmercon">Oseng-oseng mercon adalah makanan yang berbahan dasar kikil, daging sapi, dan cabe rawit yang sangat banyak. Nama mercon berasal dari letupan-letupan pedasnya cabe rawit ketika dikunyah dan ekspresi wajah setelah memakan oseng-oseng tersebut, rasanya seperti bom yang meledak di dalam mulut.</string>
+
+    <string name="title7jg">SOTO</string>
+    <string name="sotojogja">Soto adalah makanan sejenis sop yang kuahnya berasal dari kaldu daging dan dimakan dengan campuran daging, nasi serta sayuran. Di Jogja, soto adalah salah satu menu sarapan terfavorit.</string>
+
+    <string name="title8jg">AYAM GORENG</string>
+    <string name="ayamgoreng">Ayam goreng, sajian dari ayam kampung atau ayam kota yang digoreng di dalam minyak panas ini merupakan menu favorit dari berbagai kalangan. Di Jogja sendiri, masakan ayam goreng yang terkenal adalah ayam goreng kampung.</string>
+
+    <string name="title9jg">BAKPIA</string>
+    <string name="bakpia">Bakpia adalah makanan dari kacang hijau yang dibungkus dari tepung. Seiring berjalannya waktu, isi bakpia tidak hanya kacang hijau, sekarang sudah banyak varian rasa, mulai dari cokelat, keju, durian, hingga cappuccino dan abon sapi. Bakpia termasuk salah satu ikon kuliner Jogja yang populer.</string>
+
+    <string name="title10jg">JADAH TEMPE</string>
+    <string name="jadahtempe">Jadah tempe adalah makanan olahan dari ketan dengan campuran kelapa nan gurih dan dimakan dengan tempe bacem. Jadah tempe merupakan makanan khas di daerah Kaliurang, Sleman.</string>
+
+    <string name="tips_and_trick">TIPS AND TRICK</string>
+    <string name="title1">EASY PACKING</string>
+    <string name="credit">© TO BUZZFEED</string>
+    <string name="article">
+        \n
+        ➤ Kemas semua barang Anda yang lebih berat (sepatu, tas kosmetik, dll.) di bagian bawah koper Anda sehingga mudah dibawa ke bandara.
+        \n \n
+        ➤ Ingat fasilitas hotel. Saat ini Anda tidak perlu lagi mengemas pengering rambut, lotion tubuh, kikir kuku, Q-tip, dll. Kamar-kamar tersebut menjadi standar di banyak kamar hotel, terutama di properti bintang 4-5!
+        \n \n
+        ➤
+    </string>
+    <string name="notice1"> \n ⇀ IMPORTANT TO NOTICE ↽ </string>
+    <string name="title2">\n HOW NOT TO FORGET ANYTHING BEFORE A TRIP</string>
+    <string name="article2">
+        \n
+        ➤ Pisahkan barang-barang penting Anda dari yang Anda inginkan, dan masukanlah dengan keterbatasan barang bawaan.
+
+    </string>
+    <string name="title3">\n 5 TIPS FOR PACKING ITEMS</string>
+    <string name="article3">
+    \n
+    ➤ Cara agar isi tas anda tidak terlalu keliahatan besar dan berat dan juga dapat menghemat tempat.
+    </string>
+    <string name="title4">\n ABOUT JAVA</string>
+    <string name="article4">
+        \n
+        ➤ Bagi anda yang ingin mengenal jawa lebih lanjut
+    </string>
+    <string name="title5">\n TRAVELING TIPS TO THE BEACH </string>
+    <string name="article5">\n
+        ➤ ini adalah sedikit tips ketika anda akan berpergian ke pantai
+    </string>
+    <string name="banten">Banten</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="jawa_barat">Jawa Barat</string>
+    <string name="jawa_tengah">Jawa Tengah</string>
+    <string name="yogyakarta">Yogyakarta</string>
+    <string name="select_your_province">Select your province</string>
+    <string name="artike1">Anda pasti sangat mengenal atau paling tidak merasa pernah mendengar nama sebuah tempat wisata di Banten ini, Pantai Anyer. Sebuah kawasan wisata pantai yang menyimpan berbagai nikmat liburan serta pesona pemandangan masing-masing pantai yang berbeda. Satu sama lain saling memiliki pesona yang tidak akan membuat pengunjung bosan. Apalagi objek wisata di dalamnya yang beragam.
+    </string>
+    <string name="artike2">
+Kawasan pantai Anyer ini memiliki beragam jenis pentai yang rata-rata sudah sangat populer di mata wisatawan. Anda tidak akan kesulitan menemukan foto-foto keren pantai Anyer karena memang pemandangan alam pantai yang disuguhkan sangat elok. Lokasinya berada Jalan Raya Sawahan Banten, tepatnya di desa Bulakan, Cinangka, Kecamatan Serang, Provinsi Banten.</string>
+<string name="artike15">Belum lengkap rasanya kalau berlibur ke Jakarta dan tidak mengunjungi Taman Mini Indonesia Indah atau yang juga dikenal dengan TMII. Tempat ini selalu memiliki daya tarik tersendiri untuk dikunjungi para wisatawan.
+
+Selain berlibur dan bersenang-senang, di tempat ini kita juga diajak untuk lebih mencintai Indonesia. Karena TMII ini mengusung konsep kearifan lokal nusantara yang bisa ditemukan di semua bagian tempat di sini.
+</string>
+    <string name="artike16">
+
+Selain itu, kita juga bisa mengunjungi beberapa tempat yang sarat edukasi. Tentu saja akan sangat cocok bila dikunjungi bersama anak-anak.</string>
+    <string name="artik2">Taman Nasional Ujung Kulon terletak di bagian paling barat Pulau Jawa, Indonesia. Kawasan taman nasional ini pada mulanya meliputi wilayah Krakatau dan beberapa pulau kecil di sekitarnya seperti Pulau Handeuleum dan Pulau Peucang dan Pulau Panaitan. Kawasan taman nasional ini mempunyai luas sekitar 122.956 Ha; (443 km² di antaranya adalah laut), yang dimulai dari Semenanjung Ujung Kulon sampai dengan Samudera Hindia.
+    </string>
+    <string name="artike3">
+
+Ujung Kulon merupakan taman nasional tertua di Indonesia yang sudah diresmikan sebagai salah satu Warisan Dunia yang dilindungi oleh UNESCO pada tahun 1991, karena wilayahnya mencakupi hutan lindung yang sangat luas. Sampai saat ini kurang lebih 50 sampai dengan 60 badak hidup di habitat ini. </string>
 </resources>

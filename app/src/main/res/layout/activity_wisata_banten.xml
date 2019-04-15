@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="16dp"
     android:layout_height="match_parent"
     tools:context=".WisataBanten">
 
@@ -14,10 +15,228 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-    <Button
+            <TextView
+                android:id="@+id/masjidagung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@id/msjdagng"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:text="Masjid Agung Banten"
+                android:textColor="@color/black" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/msjdagng"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="MasjidAgung"
+                android:src="@drawable/agung_banten" />
+
+            <TextView
+                android:id="@+id/anyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msjdagng"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/anyr"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:text="Pantai Anyer"
+                android:textColor="@color/black" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/anyr"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/msjdagng"
+                android:layout_marginTop="20dp"
+                android:onClick="Anyer"
+                android:src="@drawable/anyer" />
+
+            <TextView
+                android:id="@+id/baduy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/anyr"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/bduy"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:paddingBottom="15dp"
+                android:text="Kampung Baduy" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bduy"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/anyr"
+                android:onClick="Baduy"
+                android:src="@drawable/kamung_baduy" />
+
+            <TextView
+                android:id="@+id/ujungkulon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bduy"
+                android:layout_toRightOf="@+id/ujgkulon"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:paddingBottom="15dp"
+                android:text="Taman Nasional Ujung Kulon" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ujgkulon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/bduy"
+                android:layout_marginTop="20dp"
+                android:onClick="UjungKulon"
+                android:src="@drawable/ujung_kulon" />
+
+            <TextView
+                android:id="@+id/OceanPark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ujgkulon"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/Ocenpark"
+                android:paddingBottom="15dp"
+                android:text="Ocean Park" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Ocenpark"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/ujgkulon"
+                android:layout_marginTop="20dp"
+                android:onClick="OceanPark"
+                android:src="@drawable/ocean" />
+
+            <TextView
+                android:id="@+id/peucang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Ocenpark"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/pcang"
+                android:paddingBottom="15dp"
+                android:text="Pulau Peucang" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pcang"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/Ocenpark"
+                android:layout_marginTop="20dp"
+                android:onClick="Peucang"
+                android:src="@drawable/peucang" />
+
+            <TextView
+                android:id="@+id/sawarna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pcang"
+                android:layout_toRightOf="@+id/swrna"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:textColor="@color/black"
+                android:paddingBottom="15dp"
+                android:text="Pantai Sawarna" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/swrna"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/pcang"
+                android:onClick="Sawarna"
+                android:src="@drawable/sawarna" />
+
+            <TextView
+                android:id="@+id/umang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/swrna"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/umng"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:paddingBottom="15dp"
+                android:text="Pulau Umang" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/umng"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/swrna"
+                android:layout_marginTop="20dp"
+                android:onClick="Umang"
+                android:src="@drawable/umang" />
+
+
+            <TextView
+                android:id="@+id/gendng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/umng"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/umng"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:paddingBottom="15dp"
+                android:text="Air Terjun Gendang" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gndang"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/umng"
+                android:onClick="Gendang"
+                android:src="@drawable/gendang" />
+
+            <TextView
+                android:id="@+id/cangkir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gndang"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/cngkir"
+                android:paddingBottom="15dp"
+                android:text="Pulau Cangkir" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cngkir"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/gndang"
+                android:layout_marginTop="20dp"
+                android:onClick="Cangkir"
+                android:src="@drawable/pulau_cangkir" />
+
+
+            <!--<Button
         android:id="@+id/masjid_agung"
         android:layout_width="190dp"
         android:layout_height="120dp"
+        android:layout_below="@+id/text_banten"
+        android:background="@drawable/banten"
+        android:text="Masjid Agung"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"/>
 
@@ -25,6 +244,7 @@
                 android:id="@+id/banten1"
                 android:layout_width="190dp"
                 android:layout_height="120dp"
+                android:layout_below="@+id/text_banten"
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
@@ -35,6 +255,10 @@
         android:layout_width="190dp"
         android:layout_height="120dp"
         android:layout_below="@+id/masjid_agung"
+        android:background="@drawable/anyer"
+        android:text="Pantai Anyer"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"/>
 
@@ -53,6 +277,9 @@
         android:layout_width="190dp"
         android:layout_height="120dp"
         android:layout_below="@+id/anyer"
+        android:text="Kampung Baduy"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"/>
 
@@ -71,6 +298,10 @@
         android:layout_width="190dp"
         android:layout_height="120dp"
         android:layout_below="@+id/baduy"
+        android:background="@drawable/ujung_kulon"
+        android:text="Taman Nasional Ujung Kulon"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"/>
 
@@ -102,7 +333,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_below="@+id/banten4"
-                android:layout_toRightOf="@+id/banten6" />
+                android:layout_toRightOf="@+id/banten6" /> -->
 
         </RelativeLayout>
     </ScrollView>

@@ -12,7 +12,7 @@ public class ujung_kulon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.anyer);
+        setContentView(R.layout.activity_ujung_kulon);
         Intent intent = getIntent();
 
     }

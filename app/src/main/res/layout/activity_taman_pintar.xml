@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TamanPintar"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_pintar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="taman pintar"
+        android:gravity="bottom"
+        android:fontFamily="@font/bebas"
+        android:background="@drawable/taman_pintar"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_below="@id/image_pintar"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+
+            <TextView
+                android:id="@+id/artikel139"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel139" />
+            <TextView
+
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel139"
+                android:id="@+id/satu"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel140" />
+
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/satu"
+                android:id="@+id/sua"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel141" />
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sua"
+                android:id="@+id/tiga"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel142" />
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tiga"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:id="@+id/empat"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel143" />
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/empat"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="5sp"
+                android:textSize="20dp"
+                android:text="@string/artikel144" />
+    </RelativeLayout>
+
+</ScrollView>

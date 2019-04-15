@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".air_terjun_gendang">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/image_air_terjun_gendang"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Air Terjun Gendang"
+        android:textColor="@android:color/white"
+        android:gravity="bottom"
+        android:fontFamily="@font/bebas"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="@drawable/gendang"
+        android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/open_location_button"
+                android:layout_width="match_parent"
+                android:background="@drawable/custom_button"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_air_terjun_gendang"
+                android:layout_marginBottom="24dp"
+                android:onClick="openLocation"
+                android:text="Open Location"/>
+
+
+            <TextView
+                android:id="@+id/artikel189"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/open_location_button"
+                android:lineSpacingExtra="5sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:textSize="20dp"
+                android:text="@string/artikel195" />
+            <TextView
+                android:id="@+id/artikel"
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel189"
+                android:lineSpacingExtra="5sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:textSize="20dp"
+                android:text="@string/artikel196" />
+
+
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel"
+                android:lineSpacingExtra="5sp"
+                android:id="@+id/artikel2"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp"
+                android:text="@string/artikel197" />
+            <TextView
+                android:autoLink="web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artikel2"
+                android:lineSpacingExtra="5sp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:text="@string/artikel198" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,131 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Provinsi">
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="27sp"
+                android:gravity="center"
+                android:layout_marginBottom="27dp"
+                android:layout_marginTop="27dp"
+                android:textColor="#4a4a4a"
+                android:text="Select your provinsi"
+                android:fontFamily="@font/kiona"/>
+        </LinearLayout>
 
         <RelativeLayout
+            android:id="@+id/banten"
+            android:clickable="true"
+            android:layout_below="@id/title"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="150dp"
+            android:onClick="ProvBanten">
 
-    <TextView
-        android:id="@+id/text_intro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:padding="10dp"
-        android:text="Daftar Provisi"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:id="@+id/dessert"
-        android:layout_below="@+id/text_intro"
-        android:text="Pilih Provinsimu :"/>
-
-    <ImageView
-        android:id="@+id/banten"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/dessert"
-        android:layout_marginTop="3dp"
-        android:padding="3dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_below="@+id/dessert"
-        android:layout_toRightOf="@+id/banten"
-        android:text="Banten"/>
-
-    <ImageView
-        android:id="@+id/jakarta"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/banten"
-        android:padding="10dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_below="@+id/banten"
-        android:layout_toRightOf="@+id/jakarta"
-        android:text="Jakarta"/>
-
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:padding="10dp"
-        android:id="@+id/jabar"
-        android:layout_below="@+id/jakarta" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_below="@+id/jakarta"
-        android:layout_toRightOf="@+id/jabar"
-        android:text="Jawa Barat"/>
-
-
-    <ImageView
-        android:id="@+id/jateng"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/jabar"
-        android:layout_marginTop="3dp"
-        android:padding="3dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_below="@+id/jabar"
-        android:layout_toRightOf="@+id/jateng"
-        android:text="Jawa Tengah"/>
-
-    <ImageView
-        android:id="@+id/jogja"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/jateng"
-
-        android:padding="10dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_below="@+id/jateng"
-        android:layout_toRightOf="@+id/jogja"
-        android:text="Yogyakarta"/>
-
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:padding="10dp"
-        android:id="@+id/jatim"
-        android:layout_below="@+id/jogja"
-
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_below="@+id/jogja"
-        android:layout_toRightOf="@+id/jatim"
-        android:text="Jawa Timur"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="ProvBanten"
+                android:background="@drawable/banten_ed"
+                android:text="@string/banten"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kiona"
+                />
 
         </RelativeLayout>
-    </ScrollView>
-</RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jakarta"
+            android:layout_below="@id/banten"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="ProvJakarta">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/jakarta_ed"
+                android:text="@string/jakarta"
+                android:onClick="ProvJakarta"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kiona"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jabar"
+            android:layout_below="@id/jakarta"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="ProvJabar">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/jabar_ed"
+                android:text="@string/jawa_barat"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:onClick="ProvJabar"
+                android:textStyle="bold"
+                android:fontFamily="@font/kiona" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jateng"
+            android:layout_below="@id/jabar"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="ProvJateng">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/jateng_ed"
+                android:text="@string/jawa_tengah"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:onClick="ProvJateng"
+                android:textStyle="bold"
+                android:fontFamily="@font/kiona"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jatim"
+            android:layout_below="@id/jateng"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="ProvJatim">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/jatim_ed"
+                android:text="Jawa Timur"
+                android:textColor="@android:color/white"
+                android:onClick="ProvJatim"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kiona" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/jogja"
+            android:layout_below="@id/jatim"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="ProvYogya">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/yogya_ed"
+                android:text="@string/yogyakarta"
+                android:onClick="ProvYogya"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kiona"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
