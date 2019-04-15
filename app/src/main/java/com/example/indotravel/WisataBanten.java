@@ -29,7 +29,7 @@ public class WisataBanten extends AppCompatActivity {
     }
 
     public void UjungKulon(View view) {
-        Intent intent = new Intent(this, ujung_kulon.class);
+        Intent intent = new Intent(this, UjungKulon.class);
         startActivity(intent);
     }
 

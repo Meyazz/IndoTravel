@@ -2,20 +2,19 @@ package com.example.indotravel;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class ujung_kulon extends AppCompatActivity {
+public class UjungKulon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ujung_kulon);
-        Intent intent = getIntent();
-
+        setContentView(R.layout.ujung_kulon);
     }
+
     public void openLocation(View view){
         // Get the string indicating a location. Input is not validated; it is
         // passed to the location handler intact.
@@ -33,4 +32,3 @@ public class ujung_kulon extends AppCompatActivity {
         }
     }
 }
-

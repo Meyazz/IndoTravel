@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Jateng">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/alam_panenjoan"
+                android:layout_below="@id/title"
+                android:layout_toRightOf="@+id/alam"
+                android:text="Masjid Agung Jawa Tengah"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:onClick="Agungjateng"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/alam"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/agung_jateng"
+                android:onClick="Agungjateng"
+                android:layout_below="@id/title"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/green-canyon"
+                android:layout_below="@id/alam"
+                android:text="Candi Borobudur"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/canyon"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/canyon"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/borobudur"
+                android:onClick="Borobudur"
+                android:layout_below="@id/alam"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/stone"
+                android:layout_below="@id/canyon"
+                android:text="Progo Rafting"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/garden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/garden"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/rafting"
+                android:onClick="Rafting"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/canyon"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/ujung-genteng"
+                android:layout_below="@id/garden"
+                android:text="Pantai Nampu"
+                android:onClick="Nampu"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/ujung"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ujung"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/pantai_nampu"
+                android:onClick="Nampu"
+                android:layout_below="@id/garden"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/remis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/telaga"
+                android:layout_below="@id/ujung"
+                android:layout_marginBottom="12dp"
+                android:text="Gunung Merbabu"
+                android:onClick="Merbabu"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/telaga"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/merbabu"
+                android:onClick="Merbabu"
+                android:layout_below="@id/ujung"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/kawah"
+                android:layout_below="@id/telaga"
+                android:text="Taman Wisata Baturaden"
+                android:textColor="@color/black"
+                android:onClick="Baturaden"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/putih"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/putih"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/baturaden"
+                android:onClick="Baturaden"
+                android:layout_below="@id/telaga"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/talaga"
+                android:layout_below="@id/putih"
+                android:text="Dataran Tinggi Dieng"
+                android:onClick="Dieng"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/bodas"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bodas"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/dieng"
+                android:onClick="Dieng"
+                android:layout_below="@id/putih"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/kampung"
+                android:layout_below="@id/bodas"
+                android:text="Lembah Sindoro"
+                android:onClick="Sindoro"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/karuhun"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/karuhun"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sindoro"
+                android:layout_below="@id/bodas"
+                android:layout_marginTop="20dp"
+                android:onClick="Sindoro"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/sri"
+                android:layout_below="@id/karuhun"
+                android:text="Umbul Ponggok"
+                android:onClick="Ponggok"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="45dp"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/baduga"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/baduga"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/umbul_ponggok"
+                android:onClick="Ponggok"
+                android:layout_below="@id/karuhun"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/curug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/cikaso"
+                android:layout_below="@id/baduga"
+                android:layout_marginBottom="12dp"
+                android:onClick="Sewu"
+                android:text="Air Terjun Grojogan Sewu" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cikaso"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/istiqlal"
+                android:onClick="Sewu"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/baduga"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

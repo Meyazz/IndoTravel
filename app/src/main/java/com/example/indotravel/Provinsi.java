@@ -26,7 +26,7 @@ public class Provinsi extends AppCompatActivity {
     }
 
     public void ProvJateng(View view) {
-        Intent intent = new Intent(this, activity_jateng.class);
+        Intent intent = new Intent(this, Jateng.class);
         startActivity(intent);
     }
 
@@ -41,7 +41,7 @@ public class Provinsi extends AppCompatActivity {
     }
 
     public void ProvJabar(View view) {
-        Intent intent = new Intent(this, WisataJabar.class);
+        Intent intent = new Intent(this, Jabar.class);
         startActivity(intent);
     }
 }

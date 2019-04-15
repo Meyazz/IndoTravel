@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NasiGandul"></activity>
+        <activity android:name=".Jateng"></activity>
+        <activity android:name=".Jabar" />
+        <activity android:name=".AgungJateng" />
+        <activity android:name=".UjungKulon" />
+        <activity android:name=".NasiGandul" />
         <activity android:name=".NasiGrombyang" />
         <activity android:name=".NasiSumSum" />
         <activity android:name=".NasiLiwet" />
